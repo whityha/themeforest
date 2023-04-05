@@ -82,6 +82,7 @@
     "prettier:check": "npx prettier --check .",
     "prettier:fix": "npx prettier --write .",
     "eslint": "eslint --fix .",
+    "eslint:check": "eslint",
     "test": "jest ./tests/main.test.ts",
     "cypress": "cypress open",
     "webpack:dev": "webpack serve --open --config webpack.dev.js",

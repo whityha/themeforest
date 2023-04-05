@@ -20,6 +20,6 @@ jobs:
       - name: install modules
         run: yarn install
       - name: check eslint
-        run: npm run eslint
+        run: npm run eslint:check
       - name: build project
         run: npm run webpack:prod
