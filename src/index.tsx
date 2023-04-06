@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 
 import './i18next';
@@ -13,8 +14,10 @@ const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
     <React.StrictMode>
         <ThemeProvider theme={theme}>
-            <App />
-            <GlobalStyle />
+            <BrowserRouter>
+                <App />
+                <GlobalStyle />
+            </BrowserRouter>
         </ThemeProvider>
     </React.StrictMode>
 );

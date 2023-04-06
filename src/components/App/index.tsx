@@ -1,20 +1,17 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { Route, Routes } from 'react-router-dom';
 
-import { Title1, Title4 } from '@/theme/UI/Titles';
-
-import { Wrapper } from './styled';
+import ROUTES from '@/constants/Routes';
 
 import './fonts.css';
 
 const App = () => {
-    const { t } = useTranslation();
     return (
-        <Wrapper>
-            <Title1>{t('header.video')}</Title1>
-            <Title4>{t('header.navbar.home')}</Title4>
-            <Title4>{t('header.navbar.contacts')}</Title4>
-        </Wrapper>
+        <Routes>
+            {ROUTES.map(({ path, element }) => (
+                <Route key={path} path={path} element={element} />
+            ))}
+        </Routes>
     );
 };
 
