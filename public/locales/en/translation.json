@@ -1,0 +1,13 @@
+{
+    "header": {
+      "video": "Watch the demo",
+      "navbar": {
+        "home": "Home",
+        "solutions": "Solutions",
+        "pages": "Pages",
+        "elements": "Elements",
+        "blog": "Blog",
+        "contacts": "Contacts"
+      }
+    }    
+}

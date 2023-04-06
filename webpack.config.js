@@ -9,7 +9,7 @@ module.exports = {
     entry: './src/index.tsx',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js',
+        filename: '[name].bundle.js',
         publicPath: '/',
     },
     plugins: [
@@ -32,6 +32,10 @@ module.exports = {
     ],
     module: {
         rules: [
+            {
+                test: /\.css$/i,
+                use: ['style-loader', 'css-loader'],
+            },
             {
                 test: /\.(ts|tsx)$/,
                 exclude: /node_modules/,
