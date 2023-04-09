@@ -1,4 +1,10 @@
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"]
+    "editor.codeActionsOnSave": [
+        "source.formatDocument",
+        "source.fixAll.eslint"
+    ],
+    "cSpell.words": [
+        "Formik"
+    ]
 }

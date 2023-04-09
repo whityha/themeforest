@@ -11,11 +11,17 @@ export default createGlobalStyle`
     }
     body {
         overflow-x: hidden;
+        font-family: 'Open Sans';
     }
     a {
         color: inherit;
     }
     a:hover {
         text-decoration: none;
+    }
+    button {
+        outline: none;
+        border: none;
+        background: none;
     }
 `;

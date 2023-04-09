@@ -18,6 +18,6 @@
       "checkJs": true,
       "types": ["jest", "node"]
   },
-  "include": ["src", "../../node_modules/@types/jest"],
+  "include": ["src", "../../node_modules/@types/jest", "src/react-app-env.d.ts"],
   "extends": "./tsconfig.paths.json"
 }
