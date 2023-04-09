@@ -12,6 +12,7 @@ export const theme = {
         background: '#f1f6fa',
         red: '#c14040',
         white: '#ffffff',
+        green: '#35b969',
     },
     shadows: {
         shadowButton: '0px 12px 30px 0px #185cff2e',

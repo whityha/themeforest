@@ -46,8 +46,12 @@ export const SendButton = styled.button`
         color: ${({ theme }) => theme.colors.grey};
         cursor: auto;
     }
-    &:hover:not([disabled]) {
+    &:not([disabled]) {
         width: ${({ theme }) => theme.buttonsWidth.medium + 30}px;
+    }
+    &:hover:not([disabled]) {
+        background: ${({ theme }) => theme.colors.green};
+        color: ${({ theme }) => theme.colors.white};
     }
 `;
 

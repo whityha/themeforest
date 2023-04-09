@@ -27,7 +27,7 @@ const Home = () => {
             <SectionOurPricing />
             <SectionOurBlog />
             <SectionNeedHelp />
-            <SectionSubscribe />
+            <SectionSubscribe dark />
         </>
     );
 };

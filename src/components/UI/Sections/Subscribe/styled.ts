@@ -8,7 +8,8 @@ import { SectionProps } from '@/types';
 export const Wrapper = styled.section<SectionProps>`
     display: flex;
     padding: ${({ theme }) => `${theme.padding.p8}px 0`};
-    background: ${({ theme }) => theme.colors.darkBlue};
+    background: ${({ theme, background }) =>
+        background ? theme.colors.darkBlue : theme.colors.blue};
 `;
 
 export const Content = styled.div`

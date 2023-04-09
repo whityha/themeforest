@@ -7,10 +7,10 @@ import FlexBox from '../../FlexBox';
 
 import { Content, DescriptionContainer, Subtext, Title, Wrapper } from './styled';
 
-const SectionSubscribe = () => {
+const SectionSubscribe = ({ dark }: { dark?: boolean }) => {
     const { t } = useTranslation();
     return (
-        <Wrapper>
+        <Wrapper background={dark}>
             <Content>
                 <DescriptionContainer>
                     <Title>{t('Subscribe.title')}</Title>
