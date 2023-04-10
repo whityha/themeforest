@@ -41,4 +41,4 @@ export const ALL_ROUTES = [
     },
 ];
 
-export const NAVBAR_ITEMS = ALL_ROUTES.filter(({ name }) => name !== 'services');
+export const NAVBAR_ROUTES = ALL_ROUTES.filter(({ name }) => name !== 'services');

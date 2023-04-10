@@ -3,9 +3,8 @@ import styled from 'styled-components';
 
 import { Parag3 } from '@/theme/UI/Paragraphs';
 
-interface ErrorProps {
-    error?: string | boolean;
-}
+import { ErrorProps } from './types';
+
 export const FormContainer = styled(Form)<ErrorProps>`
     display: flex;
     position: relative;

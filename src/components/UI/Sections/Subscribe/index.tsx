@@ -16,7 +16,7 @@ const SectionSubscribe = ({ dark }: { dark?: boolean }) => {
                     <Title>{t('Subscribe.title')}</Title>
                     <Subtext>{t('Subscribe.subtext')}</Subtext>
                 </DescriptionContainer>
-                <FlexBox w={50} alignItems="center" justifyContent="center">
+                <FlexBox w={50} alignItems="center" justifyContent="flex-end">
                     <EmailSender />
                 </FlexBox>
             </Content>

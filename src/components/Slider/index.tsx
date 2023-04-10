@@ -1,16 +1,9 @@
 import React, { useState } from 'react';
 
 import { Box, Button, HiddenBox, Title, TopBox, Wrapper } from './styled';
+import { sliderOptions } from './types';
 
-const Slider = ({
-    slides = [],
-    visibleSlidersCount = 3,
-    title,
-}: {
-    visibleSlidersCount?: number;
-    slides: Array<any>;
-    title: string;
-}) => {
+const Slider = ({ slides = [], visibleSlidersCount = 3, title }: sliderOptions) => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slidesCount = slides?.length;
 

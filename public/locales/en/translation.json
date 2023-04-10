@@ -1,4 +1,6 @@
 {
+    "routes": {
+    },
     "header": {
       "videoButton": "Watch the demo",
       "navbar": {
@@ -8,6 +10,17 @@
         "elements": "Elements",
         "blog": "Blog",
         "contacts": "Contacts"
+      }
+    },
+    "footer": {
+      "subtext": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.",
+      "quick": "Quick link",
+      "service": "Service",
+      "contact": "Contact Info",
+      "policy": {
+        "rights": "Ensome© 2022 All Rights Reserved",
+        "privacy": "Privacy policy",
+        "terms": "Terms of us"
       }
     },
     "Ensome": {
@@ -21,7 +34,7 @@
       "button": "Discover more"
     },
     "Radically": {
-      "title": "Radically new solutions for data",
+      "title": "Radically new solutions for data",
       "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "button": "Learn more"
     },
@@ -91,5 +104,5 @@
       "button": "Send",
       "placeholder": "Your email",
       "error": "Please, choose a valid email"
-    }
+    }    
 }

@@ -8,6 +8,7 @@ import { APP_EMAIL_PUBLIC_KEY, APP_EMAIL_SERVICE_ID, APP_EMAIL_TEMPLATE_ID } fro
 import { Title6 } from '@/theme/UI/Titles';
 
 import { Error, FormContainer, Input, SendButton } from './styled';
+import { onSubmit } from './types';
 import BasicFormSchema from './yupConfig';
 
 const EmailSender = () => {
@@ -15,7 +16,7 @@ const EmailSender = () => {
     const [isSending, setIsSending] = useState(false);
     const form = useRef<HTMLFormElement>(null);
 
-    const sendEmail = (values: object, { resetForm }: { resetForm: () => void }) => {
+    const sendEmail = (values: object, { resetForm }: onSubmit) => {
         if (form.current) {
             setIsSending(true);
             emailjs
@@ -48,7 +49,7 @@ const EmailSender = () => {
                         type="text"
                         placeholder={t('EmailSender.placeholder') ?? ''}
                         disabled={isSending}
-                        autocomplete="off"
+                        autoComplete="off"
                     />
                     <SendButton
                         disabled={!!(touched.email && errors.email) || !email || isSending}

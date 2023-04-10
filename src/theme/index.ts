@@ -46,6 +46,8 @@ export const theme = {
         m8: 80,
         m9: 90,
         m10: 100,
+        m11: 110,
+        m12: 120,
     },
     fontSize: {
         s0: 57,
@@ -86,6 +88,7 @@ export const theme = {
         g3: 30,
         g4: 40,
         g5: 50,
+        links: 12,
     },
     lineHeight: {
         small: 1.15,
