@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 import { getWrapperWidth } from '@/theme/UI/Common';
 import { Title2 } from '@/theme/UI/Titles';
-import { SectionProps } from '@/types';
 
-export const Wrapper = styled.section<SectionProps>`
+import { SectionTemplate } from '../../Templates';
+
+export const Wrapper = styled(SectionTemplate)`
     width: ${({ theme }) => getWrapperWidth(theme)}px;
     padding: ${({ theme }) => `${theme.padding.p6}px 0px`};
     margin: 0 auto;

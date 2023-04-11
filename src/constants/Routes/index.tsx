@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Home from '@/pages/Home';
-import Services from '@/pages/Services';
+import Solutions from '@/pages/Solutions';
+import SolutionSingle from '@/pages/SolutionSingle';
 
 export const ALL_ROUTES = [
     {
@@ -12,33 +13,40 @@ export const ALL_ROUTES = [
     {
         path: '/services',
         name: 'services',
-        element: <Services />,
+        element: <Solutions />,
     },
     {
         path: '/solutions',
         name: 'solutions',
-        element: <Services />,
+        element: <Solutions />,
     },
     {
         path: '/pages',
         name: 'pages',
-        element: <Services />,
+        element: <Solutions />,
     },
     {
         path: '/elements',
         name: 'elements',
-        element: <Services />,
+        element: <Solutions />,
     },
     {
         path: '/blog',
         name: 'blog',
-        element: <Services />,
+        element: <Solutions />,
     },
     {
         path: '/contacts',
         name: 'contacts',
-        element: <Services />,
+        element: <Solutions />,
+    },
+    {
+        path: '/solutions/:id',
+        name: 'solutionSingle',
+        element: <SolutionSingle />,
     },
 ];
 
-export const NAVBAR_ROUTES = ALL_ROUTES.filter(({ name }) => name !== 'services');
+export const NAVBAR_ROUTES = ALL_ROUTES.filter(
+    ({ name }) => !['services', 'solutionSingle'].includes(name)
+);

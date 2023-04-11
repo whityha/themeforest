@@ -4,12 +4,12 @@ import { Button } from '@/theme/UI/Button';
 import { getWrapperWidth } from '@/theme/UI/Common';
 import { Parag2 } from '@/theme/UI/Paragraphs';
 import { Title2 } from '@/theme/UI/Titles';
-import { SectionProps } from '@/types';
 
-export const Wrapper = styled.section<SectionProps>`
+import { SectionTemplate } from '../../Templates';
+
+export const Wrapper = styled(SectionTemplate)`
     display: flex;
     padding: ${({ theme }) => `${theme.padding.p10}px 0`};
-    background: ${({ theme }) => theme.colors.background};
 `;
 
 export const Content = styled.div`

@@ -8,7 +8,7 @@ import { ButtonLearn, Content, Image, ImageContainer, SubTitle, Title, Wrapper }
 const SectionRadically = () => {
     const { t } = useTranslation();
     return (
-        <Wrapper>
+        <Wrapper background>
             <ImageContainer>
                 <Image src="../../../../assets/images/radically_image.webp" alt="teamImage" />
             </ImageContainer>

@@ -100,6 +100,50 @@
       "title": "Subscribe to our newsletter",
       "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
     },
+    "Solutions": {
+      "subtitle": "Solutions",
+      "title": "Data analytics solutions",
+      "subtext": "Getting ready for your success, we provide truly outstanding IT solutions.",
+      "data": {
+        "title": "Data integration",
+        "subtext": "Extract, transform, load (ETL) or extract, load, transform (ELT); data governance (security, availability, quality) implementation."
+      },
+      "dataAi": {
+        "title": "Data integration",
+        "subtext": "Data preparation and management; machine learning (ML); designing and implanting artificial intelligence (AI) solutions."
+      },
+      "bigData": {
+        "title": "Big data",
+        "subtext": "Big data infrastructure setup and support.; big data quality and security management; big data capture, analysis and reporting."
+      },
+      "dataWarehousing": {
+        "title": "Data warehousing",
+        "subtext": "The process of constructing and using a data warehouse. Data warehouse and data marts design and implementation."
+      },
+      "self": {
+        "title": "Self-service BI",
+        "subtext": "Business intelligence; data analytics infrastructure design and implementation; scheduled analytics querying and reporting."
+      },
+      "visualization": {
+        "title": "Data visualization",
+        "subtext": "Interactive dashboarding; custom and pre-built visuals; multiple visualization techniques (symbol maps, line charts, pie charts...)"
+      }
+    },
+    "ChooseUs": {
+      "title": "Why choose us?",
+      "machine": {
+        "title": "Machine learning",
+        "subtext": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      },
+      "analytics": {
+        "title": "Embed analytics",
+        "subtext": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      },
+      "control": {
+        "title": "Access control",
+        "subtext": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      }
+    },
     "EmailSender": {
       "button": "Send",
       "placeholder": "Your email",

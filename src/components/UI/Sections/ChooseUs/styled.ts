@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-import { SectionTemplate } from '@/components/UI/Templates';
-import { Button } from '@/theme/UI/Button';
 import { getWrapperWidth } from '@/theme/UI/Common';
-import { Parag1 } from '@/theme/UI/Paragraphs';
-import { Title1 } from '@/theme/UI/Titles';
+import { Parag2 } from '@/theme/UI/Paragraphs';
+import { Title2, Title6 } from '@/theme/UI/Titles';
+
+import { SectionTemplate } from '../../Templates';
 
 export const Wrapper = styled(SectionTemplate)`
     display: flex;
@@ -19,17 +19,17 @@ export const ImageContainer = styled.div`
 
 export const Content = styled.div`
     display: flex;
-    width: 50%;
     max-width: ${({ theme }) => getWrapperWidth(theme) / 2 - theme.gap.g3 / 2}px;
     flex-direction: column;
     row-gap: ${({ theme }) => theme.gap.g3}px;
     align-self: center;
 `;
 
-export const Title = styled(Title1)`
+export const Title = styled(Title2)`
     color: ${({ theme }) => theme.colors.black};
 `;
-export const SubTitle = styled(Parag1)`
+
+export const Subtext = styled(Parag2)`
     color: ${({ theme }) => theme.colors.grey};
     line-height: ${({ theme }) => theme.lineHeight.large};
 `;
@@ -39,10 +39,19 @@ export const Image = styled.img`
     object-fit: auto;
 `;
 
-export const ButtonLearn = styled(Button)`
-    width: ${({ theme }) => theme.buttonsWidth.large}px;
-    padding-top: ${({ theme }) => theme.padding.p1 + 5}px;
-    padding-bottom: ${({ theme }) => theme.padding.p1 + 5}px;
-    box-shadow: ${({ theme }) => theme.shadows.shadowButton};
-    margin-top: ${({ theme }) => theme.margin.m3}px;
+export const AdvantageList = styled.ul`
+    display: flex;
+    flex-direction: column;
+    row-gap: ${({ theme }) => theme.gap.g3}px;
+`;
+
+export const AdvantageItem = styled.li`
+    display: flex;
+    flex-direction: column;
+`;
+
+export const AdvTitle = styled(Title6)`
+    padding-left: ${({ theme }) => theme.padding.p3}px;
+    background: url('../../../../assets/icons/v_blue.svg') no-repeat center left;
+    margin-bottom: ${({ theme }) => theme.margin.m1}px;
 `;

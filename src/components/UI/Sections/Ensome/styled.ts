@@ -5,6 +5,8 @@ import { Parag2 } from '@/theme/UI/Paragraphs';
 import { Title1 } from '@/theme/UI/Titles';
 import { SectionProps } from '@/types';
 
+import { SectionTemplate } from '../../Templates';
+
 export const Content = styled.div`
     position: relative;
     display: flex;
@@ -27,7 +29,7 @@ export const SubTitle = styled(Parag2)`
     color: ${({ theme }) => theme.colors.grey};
 `;
 
-export const Wrapper = styled.section<SectionProps>``;
+export const Wrapper = styled(SectionTemplate)``;
 
 export const ButtonMore = styled.button`
     position: absolute;

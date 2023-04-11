@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import { SectionProps } from '@/types';
+import { SectionTemplate } from '@/components/UI/Templates';
 
-export const Wrapper = styled.section<SectionProps>`
+export const Wrapper = styled(SectionTemplate)`
     display: flex;
     padding: ${({ theme }) => `${theme.padding.p12}px 0`};
 `;

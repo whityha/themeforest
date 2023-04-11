@@ -2,8 +2,12 @@ import styled from 'styled-components';
 
 import { getWrapperWidth } from '@/theme/UI/Common';
 
-export const OuterWrapper = styled.div`
-    background: ${({ theme }) => theme.colors.background};
+interface HeaderProps {
+    background: 'darkBlue' | 'background' | 'white';
+}
+
+export const OuterWrapper = styled.header<HeaderProps>`
+    background: ${({ theme, background }) => theme.colors[background]};
 `;
 
 export const InnerWrapper = styled.div`

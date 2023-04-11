@@ -41,13 +41,6 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             },
             {
-                test: /\.(ts|tsx)$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader',
-                },
-            },
-            {
                 test: /\.(ts|tsx)?$/,
                 use: 'ts-loader',
                 exclude: /node_modules/,

@@ -6,7 +6,9 @@ import { Parag1 } from '@/theme/UI/Paragraphs';
 import { Title1 } from '@/theme/UI/Titles';
 import { SectionProps } from '@/types';
 
-export const Wrapper = styled.section<SectionProps>`
+import { SectionTemplate } from '../../Templates';
+
+export const Wrapper = styled(SectionTemplate)`
     display: flex;
     width: ${({ theme }) => getWrapperWidth(theme)}px;
     column-gap: ${({ theme }) => theme.gap.g3}px;

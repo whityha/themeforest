@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
+import { SectionTemplate } from '@/components/UI/Templates';
 import { getWrapperWidth } from '@/theme/UI/Common';
 import { Parag1 } from '@/theme/UI/Paragraphs';
 import { Title2 } from '@/theme/UI/Titles';
-import { SectionProps } from '@/types';
 
-export const Wrapper = styled.section<SectionProps>`
+export const Wrapper = styled(SectionTemplate)`
     display: flex;
     flex-direction: column;
     align-items: center;

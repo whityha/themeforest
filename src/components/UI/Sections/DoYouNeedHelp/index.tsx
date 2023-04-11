@@ -8,7 +8,7 @@ import { ContactButton, Content, Subtext, Title, Wrapper } from './styled';
 const SectionNeedHelp = () => {
     const { t } = useTranslation();
     return (
-        <Wrapper>
+        <Wrapper background>
             <Content>
                 <Title>{t('DoYouNeedHelp.title')}</Title>
                 <Subtext>{t('DoYouNeedHelp.subtext')}</Subtext>

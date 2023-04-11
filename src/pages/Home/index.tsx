@@ -18,7 +18,7 @@ import {
 const Home = () => {
     return (
         <>
-            <Header />
+            <Header background="background" />
             <SectionEnsome />
             <SectionNewestPlatform />
             <SectionRadically />

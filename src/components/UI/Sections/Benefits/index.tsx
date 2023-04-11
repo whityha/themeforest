@@ -10,7 +10,7 @@ import { ContainerCards, Content, SubTitle, Title, Wrapper } from './styled';
 const SectionBenefits = () => {
     const { t } = useTranslation();
     return (
-        <Wrapper>
+        <Wrapper background>
             <Content>
                 <FlexBox w={50} direction="column">
                     <Title>{t('Benefits.title')}</Title>
