@@ -1,13 +1,27 @@
 import React from 'react';
 
+import { Backgrounds } from '@/types';
+
 import { CurrentPageName, HistoryPageName, Wrapper } from './styled';
 
-const Breadcrumbs = ({ paths }: { paths: Array<string> }) => {
+const Breadcrumbs = ({
+    center,
+    paths,
+    background,
+}: {
+    center?: boolean;
+    paths: Array<string>;
+    background?: Backgrounds;
+}) => {
     return (
-        <Wrapper>
+        <Wrapper center={center}>
             {paths.map((path, i, array) => {
                 if (i === array.length - 1)
-                    return <CurrentPageName key={path}>{path}</CurrentPageName>;
+                    return (
+                        <CurrentPageName background={background} key={path}>
+                            {path}
+                        </CurrentPageName>
+                    );
                 return <HistoryPageName key={path}>{path} |&nbsp;</HistoryPageName>;
             })}
         </Wrapper>

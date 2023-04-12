@@ -5,10 +5,10 @@ import { Title7 } from '@/theme/UI/Titles';
 
 import { Wrapper } from './styled';
 
-const VideoButton = () => {
+const VideoButton = ({ light }: { light: boolean }) => {
     const { t } = useTranslation();
     return (
-        <Wrapper>
+        <Wrapper light={light}>
             <Title7>{t('header.videoButton')}</Title7>
         </Wrapper>
     );

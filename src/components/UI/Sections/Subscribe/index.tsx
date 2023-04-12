@@ -2,15 +2,16 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import EmailSender from '@/components/EmailSenderInput';
+import { Backgrounds } from '@/types';
 
 import FlexBox from '../../FlexBox';
 
 import { Content, DescriptionContainer, Subtext, Title, Wrapper } from './styled';
 
-const SectionSubscribe = ({ dark }: { dark?: boolean }) => {
+const SectionSubscribe = ({ background }: { background?: Backgrounds }) => {
     const { t } = useTranslation();
     return (
-        <Wrapper background={dark}>
+        <Wrapper background={background}>
             <Content>
                 <DescriptionContainer>
                     <Title>{t('Subscribe.title')}</Title>

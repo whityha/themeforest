@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import Logo from '@/components/UI/Logo';
 import { Parag3 } from '@/theme/UI/Paragraphs';
 
+import { Address, Email, Phone } from '../Contacts';
+
 import { SOCIAL_ICONS } from './config';
 import {
     Content,
@@ -63,19 +65,13 @@ const Footer = () => {
                     <Title>{t('footer.contact')}</Title>
                     <LinksList>
                         <LinkItem>
-                            <a href="mailto:ensome@info.co.us">ensome@info.co.us</a>
+                            <Email />
                         </LinkItem>
                         <LinkItem>
-                            <a href="tel:+1 601-201-5580">+1 601-201-5580</a>
+                            <Phone />
                         </LinkItem>
                         <LinkItem>
-                            <a
-                                target="_blank"
-                                href="https://goo.gl/maps/cEjF9Yp3wxzd2LsD6"
-                                rel="noreferrer"
-                            >
-                                1642 Washington Avenue, Jackson, MS, Mississippi, 39201
-                            </a>
+                            <Address />
                         </LinkItem>
                     </LinksList>
                 </InfoBox>

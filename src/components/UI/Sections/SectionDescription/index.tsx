@@ -1,12 +1,15 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
+import { SOLUTIONS_PAGE_DATA } from '@/constants/Mocks/Solutions';
 import { Title7 } from '@/theme/UI/Titles';
 
-import { THESISES } from './config';
+import { TOP_INDENT_END, TOP_INDENT_START } from './config';
 import {
     Container,
     Content,
     Description,
+    Image,
     Subtext,
     ThesisContainer,
     ThesisItem,
@@ -16,7 +19,11 @@ import {
 
 const SectionDescription = ({ id }: { id: string }) => {
     const [currentThesis, setCurrentThesis] = useState<number>(0);
+    const { t } = useTranslation();
     const refArray = useRef<HTMLDivElement[]>([]);
+
+    const solution = SOLUTIONS_PAGE_DATA[id];
+
     const addToRefs = useCallback((el: HTMLDivElement | null, index: number) => {
         if (!el || refArray.current.includes(el)) return;
         refArray.current.splice(index, 0, el);
@@ -24,11 +31,11 @@ const SectionDescription = ({ id }: { id: string }) => {
 
     const onScroll = () => {
         const index = refArray.current.findIndex((el) => {
-            if (el.getBoundingClientRect().top > 100) return true;
+            const { top } = el.getBoundingClientRect();
+            if (top > TOP_INDENT_START && top < TOP_INDENT_END) return true;
             return false;
         });
         if (index !== -1) setCurrentThesis(index);
-        else setCurrentThesis(refArray.current.length - 1);
     };
 
     useEffect(() => {
@@ -43,23 +50,24 @@ const SectionDescription = ({ id }: { id: string }) => {
         <Wrapper>
             <Content>
                 <ThesisContainer>
-                    {THESISES[id as keyof typeof THESISES].map(({ id, title }, i) => {
+                    {solution.thesis.map(({ id, title }, i) => {
                         return (
                             <ThesisItem key={id} active={currentThesis === i}>
-                                <Title7>{title}</Title7>
+                                <Title7>{t(title)}</Title7>
                             </ThesisItem>
                         );
                     })}
                 </ThesisContainer>
                 <Description>
-                    {THESISES[id as keyof typeof THESISES].map(({ id, title, subtext }, index) => {
+                    {solution.thesis.map(({ id, title, subtext, image }, index) => {
                         return (
                             <Container
                                 ref={(ele: HTMLDivElement) => addToRefs(ele, index)}
                                 key={id}
                             >
-                                <Title>{title}</Title>
-                                <Subtext>{subtext}</Subtext>
+                                <Title>{t(title)}</Title>
+                                {image && <Image src={image} alt="imageSolution" />}
+                                <Subtext>{t(subtext)}</Subtext>
                             </Container>
                         );
                     })}

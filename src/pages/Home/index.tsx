@@ -28,7 +28,7 @@ const Home = () => {
             <SectionOurPricing />
             <SectionOurBlog />
             <SectionNeedHelp />
-            <SectionSubscribe dark />
+            <SectionSubscribe background="darkBlue" />
             <Footer />
         </>
     );

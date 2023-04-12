@@ -7,12 +7,12 @@ import { Title7Light } from '@/theme/UI/Titles';
 
 import { ListItem, Wrapper } from './styled';
 
-const Navbar = () => {
+const Navbar = ({ light }: { light: boolean }) => {
     const { t } = useTranslation();
     return (
         <Wrapper>
             {NAVBAR_ROUTES.map(({ name, path }) => (
-                <ListItem key={name}>
+                <ListItem light={light} key={name}>
                     <Link to={path}>
                         <Title7Light>{t(`header.navbar.${name}`)}</Title7Light>
                     </Link>

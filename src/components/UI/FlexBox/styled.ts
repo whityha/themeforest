@@ -12,4 +12,6 @@ export const Wrapper = styled.div<FlexBoxStyle>`
     flex-direction: ${({ direction }) => direction};
     justify-content: ${({ justifyContent }) => justifyContent};
     align-items: ${({ alignItems }) => alignItems};
+    row-gap: ${({ rg }) => `${rg}px`};
+    column-gap: ${({ cg }) => `${cg}px`};
 `;

@@ -19,7 +19,7 @@ import {
 const SectionChooseUs = () => {
     const { t } = useTranslation();
     return (
-        <Wrapper background>
+        <Wrapper background="background">
             <ImageContainer>
                 <Image src="../../../../assets/images/choose_us_image.webp" alt="teamImage" />
             </ImageContainer>

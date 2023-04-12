@@ -11,7 +11,8 @@ export const Content = styled(WrapperTemplate)`
     display: flex;
     align-items: flex-start;
     column-gap: ${({ theme }) => theme.gap.g5}px;
-    padding: ${({ theme }) => `${theme.padding.p12}px 0px`};
+    padding: ${({ theme: { padding } }) =>
+        `${padding.p12}px ${padding.p10}px ${padding.p12}px 0px`};
 `;
 
 export const ThesisContainer = styled.ul`
@@ -58,4 +59,10 @@ export const Subtext = styled(Parag3)`
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
+`;
+
+export const Image = styled.img`
+    width: 100%;
+    aspect-ratio: 2.5;
+    margin-top: ${({ theme: { margin } }) => margin.m4}px;
 `;

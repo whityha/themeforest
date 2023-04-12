@@ -4,7 +4,6 @@ import { Button } from '@/theme/UI/Button';
 import { getWrapperWidth } from '@/theme/UI/Common';
 import { Parag1 } from '@/theme/UI/Paragraphs';
 import { Title1 } from '@/theme/UI/Titles';
-import { SectionProps } from '@/types';
 
 import { SectionTemplate } from '../../Templates';
 

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { getWrapperWidth } from '@/theme/UI/Common';
 import { Parag2 } from '@/theme/UI/Paragraphs';
 import { Title1 } from '@/theme/UI/Titles';
-import { SectionProps } from '@/types';
 
 import { SectionTemplate } from '../../Templates';
 

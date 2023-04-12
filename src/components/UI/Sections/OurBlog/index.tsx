@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import Slider from '@/components/Slider';
-import BlogCard from '@/components/UI/BlogCard';
+import BlogCard from '@/components/UI/Cards/BlogCard';
 
 import { BLOG_NEWS } from './config';
 import { Wrapper } from './styled';

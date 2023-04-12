@@ -4,7 +4,17 @@ import { FlexBox } from '@/types';
 
 import { Wrapper } from './styled';
 
-const FlexBox = ({ children, d, direction, w, alignSelf, justifyContent, alignItems }: FlexBox) => {
+const FlexBox = ({
+    children,
+    d,
+    direction,
+    w,
+    alignSelf,
+    justifyContent,
+    alignItems,
+    rg,
+    cg,
+}: FlexBox) => {
     return (
         <Wrapper
             d={d ?? 'flex'}
@@ -13,6 +23,8 @@ const FlexBox = ({ children, d, direction, w, alignSelf, justifyContent, alignIt
             alignSelf={alignSelf}
             justifyContent={justifyContent}
             alignItems={alignItems}
+            rg={rg}
+            cg={cg}
         >
             {children}
         </Wrapper>

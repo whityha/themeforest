@@ -18,7 +18,7 @@ const Solutions = () => {
             <SectionChooseUs />
             <SectionTestimonials />
             <SectionNeedHelp />
-            <SectionSubscribe dark />
+            <SectionSubscribe background="darkBlue" />
             <Footer />
         </>
     );

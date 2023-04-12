@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import Slider from '@/components/Slider';
-import TestimonialsCard from '@/components/UI/TestmonialsCard';
+import TestimonialsCard from '@/components/UI/Cards/TestmonialsCard';
 
 import { TESTIMONIALS } from './config';
 import { Wrapper } from './styled';

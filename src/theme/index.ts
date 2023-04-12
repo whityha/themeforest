@@ -58,6 +58,7 @@ export const theme = {
         s5: 20,
         s6: 16,
         s7: 14,
+        s8: 12,
     },
     fontFamily: {
         main: 'Manrope',
@@ -88,6 +89,7 @@ export const theme = {
         g3: 30,
         g4: 40,
         g5: 50,
+        g10: 100,
         links: 12,
     },
     lineHeight: {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import PriceCard from '@/components/UI/PriceCard';
+import PriceCard from '@/components/UI/Cards/PriceCard';
 
 import { RATES } from './config';
 import { Cards, Title, Wrapper } from './styled';

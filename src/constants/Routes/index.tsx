@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Home from '@/pages/Home';
+import Services from '@/pages/Services';
+import ServicesSingle from '@/pages/ServicesSingle';
 import Solutions from '@/pages/Solutions';
 import SolutionSingle from '@/pages/SolutionSingle';
 
@@ -13,7 +15,7 @@ export const ALL_ROUTES = [
     {
         path: '/services',
         name: 'services',
-        element: <Solutions />,
+        element: <Services />,
     },
     {
         path: '/solutions',
@@ -45,8 +47,13 @@ export const ALL_ROUTES = [
         name: 'solutionSingle',
         element: <SolutionSingle />,
     },
+    {
+        path: '/services/:id',
+        name: 'servicesSingle',
+        element: <ServicesSingle />,
+    },
 ];
 
 export const NAVBAR_ROUTES = ALL_ROUTES.filter(
-    ({ name }) => !['services', 'solutionSingle'].includes(name)
+    ({ name }) => !['services', 'solutionSingle', 'servicesSingle'].includes(name)
 );

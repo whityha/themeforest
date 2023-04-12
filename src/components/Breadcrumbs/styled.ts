@@ -1,18 +1,23 @@
 import styled from 'styled-components';
 
-import { getWrapperWidth } from '@/theme/UI/Common';
+import { BackgroundProps } from '@/types';
 
-export const Wrapper = styled.ul`
+interface Breadcrumps {
+    center?: boolean;
+}
+
+export const Wrapper = styled.ul<Breadcrumps>`
     display: flex;
-    margin: 0 auto;
+    margin: ${({ center }) => center && '0 auto'};
     padding: ${({ theme }) => `${theme.padding.p2}px 0px`};
 `;
 
-export const CurrentPageName = styled.li`
-    color: ${({ theme }) => theme.colors.black};
+export const CurrentPageName = styled.li<BackgroundProps>`
+    color: ${({ theme, background }) =>
+        background === 'darkBlue' ? theme.colors.white : theme.colors.black};
     font-size: ${({ theme }) => theme.fontSize.s7}px;
     line-height: ${({ theme }) => theme.lineHeight.large};
-    font-weight: bold;
+    font-weight: 600;
 `;
 
 export const HistoryPageName = styled.li`
