@@ -428,5 +428,8 @@
       "title": "Our customers",
       "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam.",
       "whatSay": "What our customers say"
+    },
+    "Blog": {
+      "subtext": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa."
     }
 }

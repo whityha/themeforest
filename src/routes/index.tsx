@@ -1,6 +1,7 @@
 import React from 'react';
 
 import AboutUs from '@/pages/AboutUs';
+import Blog from '@/pages/Blog';
 import FAQ from '@/pages/FAQ';
 import Home from '@/pages/Home';
 import Services from '@/pages/Services';
@@ -35,11 +36,6 @@ export const ALL_ROUTES = [
         element: <Solutions />,
     },
     {
-        path: '/blog',
-        name: 'blog',
-        element: <Solutions />,
-    },
-    {
         path: '/contacts',
         name: 'contacts',
         element: <Solutions />,
@@ -63,6 +59,11 @@ export const ALL_ROUTES = [
         path: '/about_us',
         name: 'about_us',
         element: <AboutUs />,
+    },
+    {
+        path: '/blog',
+        name: 'blog',
+        element: <Blog />,
     },
 ];
 
