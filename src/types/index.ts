@@ -10,6 +10,8 @@ export interface FlexBox {
     cg?: number;
     background?: Backgrounds;
     grow?: number;
+    maxw?: number | string;
+    minw?: number | string;
 }
 
 export type FlexBoxStyle = Exclude<FlexBox, 'children'>;

@@ -2,7 +2,8 @@ import React from 'react';
 
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import SectionTitleBlog from '@/components/UI/Sections/SectionTitleBlog';
+import { SectionTitleBlog } from '@/components/UI/Sections';
+import SectionBlogContent from '@/components/UI/Sections/BlogContent';
 import { Backgrounds } from '@/types';
 
 const Blog = () => {
@@ -10,6 +11,7 @@ const Blog = () => {
         <>
             <Header background={Backgrounds.DarkBlue} />
             <SectionTitleBlog />
+            <SectionBlogContent />
             <Footer />
         </>
     );

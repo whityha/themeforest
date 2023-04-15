@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 import FlexBox from '@/components/UI/FlexBox';
 import { BlueText } from '@/theme/UI/BlueText';
@@ -18,9 +19,11 @@ const SectionEnsome = () => {
                 <FlexBox d="flex" w={33}>
                     <SubTitle>{t('Ensome.subtext')}</SubTitle>
                 </FlexBox>
-                <ButtonMore>
-                    <Title7>{t('Ensome.button')}</Title7>
-                </ButtonMore>
+                <Link to="/services">
+                    <ButtonMore>
+                        <Title7>{t('Ensome.button')}</Title7>
+                    </ButtonMore>
+                </Link>
             </Content>
             <Image src="../../assets/images/home_large.webp" alt="teamImage" />
         </Wrapper>

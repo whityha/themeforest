@@ -14,6 +14,7 @@ import SectionOurPricing from './OurPricing';
 import SectionOurStats from './OurStats';
 import SectionRadically from './Radically';
 import SectionDescription from './SectionDescription';
+import SectionTitleBlog from './SectionTitleBlog';
 import SectionServices from './Services';
 import SectionServicesContent from './ServicesContent';
 import SectionServicesTitle from './ServicesTitle';
@@ -27,6 +28,7 @@ export {
     SectionEnsome,
     SectionContactUs,
     SectionOurCustomers,
+    SectionTitleBlog,
     SectionAboutUsNumbers,
     SectionNewestPlatform,
     SectionOurBlog,

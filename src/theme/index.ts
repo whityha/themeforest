@@ -93,6 +93,7 @@ export const theme = {
         g3: 30,
         g4: 40,
         g5: 50,
+        g6: 60,
         g10: 100,
         g12: 120,
         links: 12,

@@ -15,6 +15,8 @@ const FlexBox = ({
     rg,
     cg,
     background,
+    maxw,
+    minw,
 }: FlexBox) => {
     return (
         <Wrapper
@@ -27,6 +29,8 @@ const FlexBox = ({
             rg={rg}
             cg={cg}
             background={background}
+            maxw={maxw}
+            minw={minw}
         >
             {children}
         </Wrapper>

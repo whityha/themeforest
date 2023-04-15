@@ -9,6 +9,16 @@ export const Wrapper = styled.div<FlexBoxStyle>`
         if (typeof w === 'number') return `${w}%`;
         return w;
     }};
+    min-width: ${({ w, minw }) => {
+        if (w) return undefined;
+        if (typeof minw === 'number') return `${minw}%`;
+        return minw;
+    }};
+    max-width: ${({ w, maxw }) => {
+        if (w) return undefined;
+        if (typeof maxw === 'number') return `${maxw}%`;
+        return maxw;
+    }};
     align-self: ${({ alignSelf }) => alignSelf};
     flex-direction: ${({ direction }) => direction};
     justify-content: ${({ justifyContent }) => justifyContent};
