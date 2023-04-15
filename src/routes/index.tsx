@@ -1,5 +1,7 @@
 import React from 'react';
 
+import AboutUs from '@/pages/AboutUs';
+import FAQ from '@/pages/FAQ';
 import Home from '@/pages/Home';
 import Services from '@/pages/Services';
 import ServicesSingle from '@/pages/ServicesSingle';
@@ -52,8 +54,19 @@ export const ALL_ROUTES = [
         name: 'servicesSingle',
         element: <ServicesSingle />,
     },
+    {
+        path: '/faq',
+        name: 'faq',
+        element: <FAQ />,
+    },
+    {
+        path: '/about_us',
+        name: 'about_us',
+        element: <AboutUs />,
+    },
 ];
 
 export const NAVBAR_ROUTES = ALL_ROUTES.filter(
-    ({ name }) => !['services', 'solutionSingle', 'servicesSingle'].includes(name)
+    ({ name }) =>
+        !['services', 'solutionSingle', 'servicesSingle', 'faq', 'about_us'].includes(name)
 );

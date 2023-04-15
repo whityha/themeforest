@@ -1,15 +1,16 @@
 import React from 'react';
 
-import ContactForm from '@/components/ContactForm';
+import { Backgrounds } from '@/types';
 
 import FlexBox from '../../FlexBox';
 
 import { CONTACTS_LIST } from './config';
+import ContactForm from './ContactForm';
 import { ContactItem, Content, Subtext, Title, Wrapper } from './styled';
 
 const SectionContactInformation = () => {
     return (
-        <Wrapper background="background">
+        <Wrapper background={Backgrounds.Grey}>
             <Content>
                 <FlexBox rg={40} direction="column" w={40}>
                     <Title>Contact information</Title>

@@ -5,7 +5,7 @@ import { Title6, Title7Light } from '@/theme/UI/Titles';
 
 export const Wrapper = styled.div`
     padding: ${({ theme }) => theme.padding.p3}px;
-    width: ${({ theme }) => theme.cardsWidth.testimonialCard}px;
+    width: ${({ theme }) => theme.cardsWidth.testimonials}px;
     background: ${({ theme }) => theme.colors.white};
     border-radius: ${({ theme }) => theme.borderRadius.small}px;
     box-shadow: ${({ theme }) => theme.shadows.shadowCard3};

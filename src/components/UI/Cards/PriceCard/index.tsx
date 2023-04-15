@@ -6,7 +6,6 @@ import { Title7 } from '@/theme/UI/Titles';
 
 import FlexBox from '../../FlexBox';
 
-import RadioButton from './RadioButton';
 import {
     ButtonPlan,
     Input,
@@ -34,7 +33,7 @@ const PriceCard = ({
     return (
         <Wrapper>
             <Title>{title}</Title>
-            <FlexBox w={100} justifyContent="flex-end" alignItems="center">
+            <FlexBox grow={0} w={100} justifyContent="flex-end" alignItems="start">
                 <Price>{price}</Price>
                 <>
                     <Input id={`inputRadio${title}1`} type="radio" name={title} defaultChecked />

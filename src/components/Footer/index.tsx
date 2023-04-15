@@ -1,7 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
-import Logo from '@/components/UI/Logo';
+import Logo from '@/components/Logo';
 import { Parag3 } from '@/theme/UI/Paragraphs';
 
 import { Address, Email, Phone } from '../Contacts';
@@ -46,7 +47,9 @@ const Footer = () => {
                         <LinkItem>Blog</LinkItem>
                         <LinkItem>Contacts</LinkItem>
                         <LinkItem>Our team</LinkItem>
-                        <LinkItem>About Us</LinkItem>
+                        <LinkItem>
+                            <Link to="/about_us">About Us</Link>
+                        </LinkItem>
                         <LinkItem>Services</LinkItem>
                         <LinkItem>FAQ</LinkItem>
                     </LinksList>
@@ -56,7 +59,9 @@ const Footer = () => {
                     <LinksList>
                         <LinkItem>Pages</LinkItem>
                         <LinkItem>Elements</LinkItem>
-                        <LinkItem>FAQ</LinkItem>
+                        <LinkItem>
+                            <Link to="/faq">FAQ</Link>
+                        </LinkItem>
                         <LinkItem>Pricing</LinkItem>
                         <LinkItem>Site map</LinkItem>
                     </LinksList>

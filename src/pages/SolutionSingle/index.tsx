@@ -9,12 +9,13 @@ import {
     SectionSolutionTitle,
     SectionSubscribe,
 } from '@/components/UI/Sections';
+import { Backgrounds } from '@/types';
 
 const SolutionSingle = () => {
     const { id } = useParams();
     return (
         <>
-            <Header background="background" />
+            <Header background={Backgrounds.Grey} />
             <SectionSolutionTitle id={id as string} />
             <SectionDescription id={id as string} />
             <SectionNeedHelp />

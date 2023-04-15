@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { DefaultTheme } from 'styled-components';
 
 import { getWrapperWidth } from '@/theme/UI/Common';
 import { Title2 } from '@/theme/UI/Titles';
@@ -15,8 +15,8 @@ interface SliderBoxProps {}
 export const Box = styled.div<SliderBoxProps>`
     width: 100%;
     overflow-x: hidden;
-    margin-top: ${({ theme }) => theme.margin.m3}px;
     padding: ${paddingForShadows}px;
+    padding-top: ${({ theme }) => theme.padding.p3 + paddingForShadows}px;
 `;
 
 export const TopBox = styled.div<SliderBoxProps>`
@@ -29,15 +29,16 @@ export const TopBox = styled.div<SliderBoxProps>`
 interface HiddenBox {
     count: number;
     currentSlide: number;
+    currentCard: keyof DefaultTheme['cardsWidth'];
 }
 
 export const HiddenBox = styled.div<HiddenBox>`
     display: flex;
-    width: ${({ theme, count }) =>
-        theme.cardsWidth.testimonialCard * count + theme.gap.g3 * (count - 1)}px;
+    width: ${({ theme, count, currentCard }) =>
+        theme.cardsWidth[currentCard] * count + theme.gap.g3 * (count - 1)}px;
     column-gap: ${({ theme }) => theme.gap.g3}px;
-    transform: ${({ theme, currentSlide }) => {
-        const X = currentSlide * theme.cardsWidth.testimonialCard + theme.gap.g3 * currentSlide;
+    transform: ${({ theme, currentSlide, currentCard }) => {
+        const X = currentSlide * theme.cardsWidth[currentCard] + theme.gap.g3 * currentSlide;
         return `translateX(-${X}px)`;
     }};
     transition: 0.5s;

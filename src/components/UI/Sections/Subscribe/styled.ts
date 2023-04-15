@@ -8,8 +8,7 @@ import { Title2 } from '@/theme/UI/Titles';
 export const Wrapper = styled(SectionTemplate)`
     display: flex;
     padding: ${({ theme }) => `${theme.padding.p8}px 0`};
-    background: ${({ theme, background }) =>
-        background ? theme.colors.darkBlue : theme.colors.blue};
+    background: ${({ theme, background }) => background && theme.colors[background]};
 `;
 
 export const Content = styled.div`

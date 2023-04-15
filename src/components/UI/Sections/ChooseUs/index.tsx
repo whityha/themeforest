@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { Title6 } from '@/theme/UI/Titles';
+import { Backgrounds } from '@/types';
 
 import { ADVANTAGES } from './config';
 import {
@@ -19,7 +20,7 @@ import {
 const SectionChooseUs = () => {
     const { t } = useTranslation();
     return (
-        <Wrapper background="background">
+        <Wrapper background={Backgrounds.Grey}>
             <ImageContainer>
                 <Image src="../../../../assets/images/choose_us_image.webp" alt="teamImage" />
             </ImageContainer>

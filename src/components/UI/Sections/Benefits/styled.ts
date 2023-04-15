@@ -20,8 +20,9 @@ export const Content = styled.div`
 export const ContainerCards = styled.div`
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
     gap: ${({ theme }) => theme.gap.g3}px;
-    width: 50%;
+    max-width: calc(50% - 15px);
     padding-bottom: ${({ theme }) => theme.padding.p5}px;
     & > div:nth-child(even) {
         transform: translateY(50px);

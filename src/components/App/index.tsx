@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import { ALL_ROUTES } from '@/constants/Routes';
+import { ALL_ROUTES } from '@/routes';
 
 import './fonts.css';
 

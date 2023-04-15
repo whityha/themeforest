@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 import { getWrapperWidth } from '@/theme/UI/Common';
+import { Backgrounds } from '@/types';
 
 interface HeaderProps {
-    background: 'darkBlue' | 'background' | 'white';
+    background: Backgrounds;
 }
 
 export const OuterWrapper = styled.header<HeaderProps>`

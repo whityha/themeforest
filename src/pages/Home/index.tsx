@@ -14,11 +14,12 @@ import {
     SectionSubscribe,
     SectionTestimonials,
 } from '@/components/UI/Sections';
+import { Backgrounds } from '@/types';
 
 const Home = () => {
     return (
         <>
-            <Header background="background" />
+            <Header background={Backgrounds.Grey} />
             <SectionEnsome />
             <SectionNewestPlatform />
             <SectionRadically />
@@ -28,7 +29,7 @@ const Home = () => {
             <SectionOurPricing />
             <SectionOurBlog />
             <SectionNeedHelp />
-            <SectionSubscribe background="darkBlue" />
+            <SectionSubscribe background={Backgrounds.DarkBlue} />
             <Footer />
         </>
     );

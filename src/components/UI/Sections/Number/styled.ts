@@ -2,17 +2,20 @@ import styled from 'styled-components';
 
 import { Parag2 } from '@/theme/UI/Paragraphs';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div<{ border?: boolean }>`
     display: flex;
-    flex-direction: column;
-    min-width: 160px;
+    flex-grow: 1;
+    justify-content: center;
+    &:not(:last-child) {
+        border-right: ${({ theme, border }) => `1px solid ${border && theme.colors.helperBlue3}`};
+    }
 `;
 
 export const Number = styled.span`
     font-size: ${({ theme }) => theme.fontSize.s1}px;
     color: ${({ theme }) => theme.colors.blue};
     font-family: ${({ theme }) => theme.fontFamily.secondary};
-    font-weight: bolder;
+    font-weight: 800;
 `;
 
 export const Subtitle = styled(Parag2)`

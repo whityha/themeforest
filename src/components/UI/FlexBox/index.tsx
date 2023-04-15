@@ -14,6 +14,7 @@ const FlexBox = ({
     alignItems,
     rg,
     cg,
+    background,
 }: FlexBox) => {
     return (
         <Wrapper
@@ -25,6 +26,7 @@ const FlexBox = ({
             alignItems={alignItems}
             rg={rg}
             cg={cg}
+            background={background}
         >
             {children}
         </Wrapper>

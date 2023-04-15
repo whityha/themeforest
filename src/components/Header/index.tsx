@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '@/components/UI/Logo';
+import Logo from '@/components/Logo';
 import { Backgrounds } from '@/types';
 
 import Navbar from './Navbar';

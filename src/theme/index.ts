@@ -1,3 +1,5 @@
+import { Cards } from '@/types';
+
 export const theme = {
     colors: {
         blue: '#185cff',
@@ -81,7 +83,9 @@ export const theme = {
         max: 450,
     },
     cardsWidth: {
-        testimonialCard: 350,
+        [Cards.Testimonials]: 350,
+        [Cards.Customers]: 540,
+        [Cards.Articles]: 350,
     },
     gap: {
         g1: 10,
@@ -90,6 +94,7 @@ export const theme = {
         g4: 40,
         g5: 50,
         g10: 100,
+        g12: 120,
         links: 12,
     },
     lineHeight: {

@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-import { NAVBAR_ROUTES } from '@/constants/Routes';
+import { NAVBAR_ROUTES } from '@/routes';
 import { Title7Light } from '@/theme/UI/Titles';
 
 import { ListItem, Wrapper } from './styled';

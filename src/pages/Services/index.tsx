@@ -8,15 +8,16 @@ import {
     SectionServices,
     SectionSubscribe,
 } from '@/components/UI/Sections';
+import { Backgrounds } from '@/types';
 
 const Services = () => {
     return (
         <>
-            <Header background="white" />
+            <Header background={Backgrounds.White} />
             <SectionServices />
             <SectionOurStats />
             <SectionNeedHelp />
-            <SectionSubscribe background="darkBlue" />
+            <SectionSubscribe background={Backgrounds.DarkBlue} />
             <Footer />
         </>
     );

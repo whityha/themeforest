@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Box, Button, HiddenBox, Title, TopBox, Wrapper } from './styled';
 import { sliderOptions } from './types';
 
-const Slider = ({ slides = [], visibleSlidersCount = 3, title }: sliderOptions) => {
+const Slider = ({ slides = [], visibleSlidersCount = 3, title, currentCard }: sliderOptions) => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slidesCount = slides?.length;
 
@@ -32,7 +32,11 @@ const Slider = ({ slides = [], visibleSlidersCount = 3, title }: sliderOptions) 
                 />
             </TopBox>
             <Box>
-                <HiddenBox currentSlide={currentSlide} count={slidesCount}>
+                <HiddenBox
+                    currentCard={currentCard}
+                    currentSlide={currentSlide}
+                    count={slidesCount}
+                >
                     {slides}
                 </HiddenBox>
             </Box>

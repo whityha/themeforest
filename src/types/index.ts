@@ -8,6 +8,8 @@ export interface FlexBox {
     alignItems?: string;
     rg?: number;
     cg?: number;
+    background?: Backgrounds;
+    grow?: number;
 }
 
 export type FlexBoxStyle = Exclude<FlexBox, 'children'>;
@@ -37,8 +39,19 @@ export interface ServicesPage {
     };
 }
 
-export type Backgrounds = 'background' | 'darkBlue' | 'white';
+export enum Backgrounds {
+    Grey = 'background',
+    DarkBlue = 'darkBlue',
+    White = 'white',
+    Blue = 'blue',
+}
 
 export interface BackgroundProps {
     background?: Backgrounds;
+}
+
+export enum Cards {
+    Customers = 'customers',
+    Testimonials = 'testimonials',
+    Articles = 'articles',
 }

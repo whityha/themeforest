@@ -4,10 +4,14 @@ import { Puff } from 'react-loader-spinner';
 import emailjs from '@emailjs/browser';
 import { Formik } from 'formik';
 
-import { APP_EMAIL_PUBLIC_KEY, APP_EMAIL_SERVICE_ID, APP_EMAIL_TEMPLATE_ID } from '@/constants';
-import { Title6, Title7 } from '@/theme/UI/Titles';
+import {
+    APP_EMAIL_PUBLIC_KEY,
+    APP_EMAIL_SERVICE_ID,
+    APP_EMAIL_TEMPLATE_ID_AUTOSEND,
+} from '@/constants';
+import { Title6 } from '@/theme/UI/Titles';
 
-import { Error, FormContainer, Input, InputContainer, SubmitButton } from './styled';
+import { Error, FormContainer, Input, InputContainer, SubmitButton, Title } from './styled';
 import { onSubmit } from './types';
 import BasicFormSchema from './yupConfig';
 
@@ -22,7 +26,7 @@ const ContactForm = () => {
             emailjs
                 .sendForm(
                     APP_EMAIL_SERVICE_ID,
-                    APP_EMAIL_TEMPLATE_ID,
+                    APP_EMAIL_TEMPLATE_ID_AUTOSEND,
                     form.current,
                     APP_EMAIL_PUBLIC_KEY
                 )
@@ -47,7 +51,8 @@ const ContactForm = () => {
             {({ errors, isValid, touched }) => {
                 return (
                     <FormContainer ref={form}>
-                        <InputContainer title="Name*">
+                        <Title>Contact Us</Title>
+                        <InputContainer full title="Name*">
                             <Input name="name" type="text" />
                             {errors.name && touched.name && <Error>{errors.name}</Error>}
                         </InputContainer>

@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-import { BackgroundProps } from '@/types';
+import { BackgroundProps, Backgrounds } from '@/types';
 
 export const SectionTemplate = styled.section<BackgroundProps>`
-    background: ${({ theme, background = 'white' }) => theme.colors[background]};
+    background: ${({ theme, background = Backgrounds.White }) => theme.colors[background]};
 `;
 
 export const WrapperTemplate = styled.div`

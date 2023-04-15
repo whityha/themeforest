@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import Slider from '@/components/Slider';
 import BlogCard from '@/components/UI/Cards/BlogCard';
+import { Cards } from '@/types';
 
 import { BLOG_NEWS } from './config';
 import { Wrapper } from './styled';
@@ -13,6 +14,7 @@ const SectionOurBlog = () => {
         <Wrapper>
             <Slider
                 title={t('OurBlog.title')}
+                currentCard={Cards.Articles}
                 slides={BLOG_NEWS.map(({ link, title, date, subtext, imageLink }) => {
                     return (
                         <BlogCard

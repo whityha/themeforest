@@ -43,7 +43,8 @@
       "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore. Donec tincidunt tempor quam, non mollis quam finibus nec.",
       "subtitle1": "Project executed",
       "subtitle2": "Satisfied customers",
-      "subtitle3": "Data management"
+      "subtitle3": "Data management",
+      "subtitle4": "Data analytics"
     },
     "Benefits": {
       "title": "The benefits of Ensome",
@@ -417,5 +418,15 @@
           }
         }
       }
-    }    
+    },
+    "FAQ": {
+      "subtitle": "FAQs",
+      "title": "Frequently asked questions",
+      "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam."
+    },
+    "OurCustomers": {
+      "title": "Our customers",
+      "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam.",
+      "whatSay": "What our customers say"
+    }
 }
