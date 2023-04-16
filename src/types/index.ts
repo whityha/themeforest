@@ -57,3 +57,9 @@ export enum Cards {
     Testimonials = 'testimonials',
     Articles = 'articles',
 }
+
+export type AccordionItem = {
+    id: number | string;
+    title: string;
+    subtext: string;
+};

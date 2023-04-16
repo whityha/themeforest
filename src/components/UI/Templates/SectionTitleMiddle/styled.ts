@@ -11,5 +11,7 @@ export const Wrapper = styled(SectionTemplate)`
 `;
 
 export const Title = styled(Title1)`
+    text-align: center;
+    max-width: 50%;
     color: ${({ theme }) => theme.colors.black};
 `;

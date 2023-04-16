@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import FlexBox from '../../FlexBox';
 
@@ -12,17 +13,19 @@ const BlogCard = ({
         date: string;
         subtext: string;
         title: string;
-        link: string;
+        id: number;
     };
 }) => {
-    const { date, subtext, title, link, imageLink } = options;
+    const { date, subtext, title, id, imageLink } = options;
     return (
         <FlexBox direction="column">
             <Image src={imageLink} />
             <Date>{date}</Date>
             <Title>{title}</Title>
             <Subtext>{subtext}</Subtext>
-            <Button>Read more</Button>
+            <Link to={`/blog/${id}`}>
+                <Button>Read more</Button>
+            </Link>
         </FlexBox>
     );
 };

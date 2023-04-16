@@ -31,25 +31,27 @@ const SectionBlogContent = () => {
             <Content>
                 <ArticlesContainer>
                     {BLOG_NEWS.slice(0, articlesCount).map(
-                        ({ link, date, title, subtext, imageLink }) => (
-                            <CardContainer key={link}>
-                                <BlogCard options={{ link, date, title, imageLink, subtext }} />
+                        ({ id, date, title, subtext, imageLink }) => (
+                            <CardContainer key={id}>
+                                <BlogCard options={{ id, date, title, imageLink, subtext }} />
                             </CardContainer>
                         )
                     )}
                 </ArticlesContainer>
-                <ButtonMoreContainer
-                    onClick={isLoading ? undefined : handleMoreArticles}
-                    disabled={isLoading}
-                >
-                    {isLoading ? (
-                        <Puff color="#ffffff" height="20px" />
-                    ) : (
-                        <ButtonMore disabled={isLoading}>
-                            <Title7>More articles</Title7>
-                        </ButtonMore>
-                    )}
-                </ButtonMoreContainer>
+                {BLOG_NEWS.length > articlesCount && (
+                    <ButtonMoreContainer
+                        onClick={isLoading ? undefined : handleMoreArticles}
+                        disabled={isLoading}
+                    >
+                        {isLoading ? (
+                            <Puff color="#ffffff" height="20px" />
+                        ) : (
+                            <ButtonMore disabled={isLoading}>
+                                <Title7>More articles</Title7>
+                            </ButtonMore>
+                        )}
+                    </ButtonMoreContainer>
+                )}
             </Content>
         </Wrapper>
     );

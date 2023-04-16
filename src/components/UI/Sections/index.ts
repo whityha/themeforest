@@ -18,6 +18,8 @@ import SectionTitleBlog from './SectionTitleBlog';
 import SectionServices from './Services';
 import SectionServicesContent from './ServicesContent';
 import SectionServicesTitle from './ServicesTitle';
+import SectionContentSingleBlog from './SingleBlogContent';
+import SectionSingleBlogTitle from './SingleBlogTitle';
 import SectionSolutions from './Solutions';
 import SectionSolutionTitle from './SolutionTitle';
 import SectionSubscribe from './Subscribe';
@@ -28,6 +30,8 @@ export {
     SectionEnsome,
     SectionContactUs,
     SectionOurCustomers,
+    SectionSingleBlogTitle,
+    SectionContentSingleBlog,
     SectionTitleBlog,
     SectionAboutUsNumbers,
     SectionNewestPlatform,

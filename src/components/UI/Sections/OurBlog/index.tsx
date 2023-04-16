@@ -15,13 +15,13 @@ const SectionOurBlog = () => {
             <Slider
                 title={t('OurBlog.title')}
                 currentCard={Cards.Articles}
-                slides={BLOG_NEWS.map(({ link, title, date, subtext, imageLink }) => {
+                slides={BLOG_NEWS.map(({ id, title, date, subtext, imageLink }) => {
                     return (
                         <BlogCard
-                            key={link}
+                            key={id}
                             options={{
                                 title,
-                                link,
+                                id,
                                 date,
                                 imageLink,
                                 subtext,

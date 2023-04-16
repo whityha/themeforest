@@ -32,3 +32,19 @@ export const STATS_NUMBERS = [
 ];
 
 export const STATS_NUMBER_HOME = STATS_NUMBERS.filter(({ id }) => id !== 2);
+
+export enum TAGS {
+    App = 'App',
+    Management = 'Management',
+    CMR = 'CMR',
+    BigData = 'Big Data',
+    Media = 'Media',
+    Future = 'Future',
+    CIO = 'CIO',
+    Startup = 'Startup',
+    Team = 'Team',
+    Data = 'Data',
+    DataAnalytics = 'Data analytics',
+    InformationSecurity = 'Information security',
+    Proxy = 'Proxy',
+}
