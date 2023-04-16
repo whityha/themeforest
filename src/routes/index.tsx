@@ -5,6 +5,7 @@ import Blog from '@/pages/Blog';
 import BlogSingle from '@/pages/BlogSingle';
 import FAQ from '@/pages/FAQ';
 import Home from '@/pages/Home';
+import OurTeam from '@/pages/OurTeam';
 import Services from '@/pages/Services';
 import ServicesSingle from '@/pages/ServicesSingle';
 import Solutions from '@/pages/Solutions';
@@ -71,11 +72,22 @@ export const ALL_ROUTES = [
         name: 'blogSingle',
         element: <BlogSingle />,
     },
+    {
+        path: '/team',
+        name: 'team',
+        element: <OurTeam />,
+    },
 ];
 
 export const NAVBAR_ROUTES = ALL_ROUTES.filter(
     ({ name }) =>
-        !['services', 'solutionSingle', 'servicesSingle', 'faq', 'about_us', 'blogSingle'].includes(
-            name
-        )
+        ![
+            'services',
+            'solutionSingle',
+            'servicesSingle',
+            'faq',
+            'about_us',
+            'blogSingle',
+            'team',
+        ].includes(name)
 );

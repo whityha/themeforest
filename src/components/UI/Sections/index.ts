@@ -15,6 +15,7 @@ import SectionOurStats from './OurStats';
 import SectionRadically from './Radically';
 import SectionDescription from './SectionDescription';
 import SectionTitleBlog from './SectionTitleBlog';
+import SectionTitleTeam from './SectionTitleTeam';
 import SectionServices from './Services';
 import SectionServicesContent from './ServicesContent';
 import SectionServicesTitle from './ServicesTitle';
@@ -23,17 +24,20 @@ import SectionSingleBlogTitle from './SingleBlogTitle';
 import SectionSolutions from './Solutions';
 import SectionSolutionTitle from './SolutionTitle';
 import SectionSubscribe from './Subscribe';
+import SectionTeamCards from './TeamCards';
 import SectionTestimonials from './Testimonials';
 
 export {
     SectionBenefits,
     SectionEnsome,
+    SectionTeamCards,
     SectionContactUs,
     SectionOurCustomers,
     SectionSingleBlogTitle,
     SectionContentSingleBlog,
     SectionTitleBlog,
     SectionAboutUsNumbers,
+    SectionTitleTeam,
     SectionNewestPlatform,
     SectionOurBlog,
     SectionOurStats,

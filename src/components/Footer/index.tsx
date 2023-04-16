@@ -46,7 +46,9 @@ const Footer = () => {
                         <LinkItem>Solutions</LinkItem>
                         <LinkItem>Blog</LinkItem>
                         <LinkItem>Contacts</LinkItem>
-                        <LinkItem>Our team</LinkItem>
+                        <LinkItem>
+                            <Link to="/team">Our team</Link>
+                        </LinkItem>
                         <LinkItem>
                             <Link to="/about_us">About Us</Link>
                         </LinkItem>

@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     display: flex;
     transition: ${({ theme }) => theme.transition.fast}s;
     &:hover {
-        transform: translateX(-3%);
+        transform: translateX(-1%);
     }
 `;
 
@@ -16,6 +16,7 @@ export const Image = styled.img`
     aspect-ratio: 1.25;
     object-fit: cover;
     margin-right: ${({ theme }) => theme.margin.m2}px;
+    border-radius: ${({ theme }) => theme.borderRadius.small}px;
 `;
 
 export const Date = styled(Parag3)`
