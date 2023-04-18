@@ -23,7 +23,7 @@ export const TEAMMATES = [
     },
     {
         id: 2,
-        picture: '../../../assets/images/team/team_2.webp',
+        picture: '/assets/images/team/team_2.webp',
         colorPicture: '/assets/images/team/team_color_2.webp',
         name: 'Yuri Hock',
         facebook: '#id2_facebook',
@@ -34,7 +34,7 @@ export const TEAMMATES = [
     },
     {
         id: 3,
-        picture: '../../../assets/images/team/team_3.webp',
+        picture: '/assets/images/team/team_3.webp',
         colorPicture: '/assets/images/team/team_color_3.webp',
         name: 'Elli Week',
         facebook: '#id3_facebook',
@@ -45,7 +45,7 @@ export const TEAMMATES = [
     },
     {
         id: 4,
-        picture: '../../../assets/images/team/team_4.webp',
+        picture: '/assets/images/team/team_4.webp',
         colorPicture: '/assets/images/team/team_color_4.webp',
         name: 'Abrakadabra Week',
         facebook: '#id4_facebook',
@@ -57,7 +57,7 @@ export const TEAMMATES = [
     },
     {
         id: 5,
-        picture: '../../../assets/images/team/team_5.webp',
+        picture: '/assets/images/team/team_5.webp',
         colorPicture: '/assets/images/team/team_color_5.webp',
         name: 'Eva Pool',
         facebook: '#id5_facebook',
@@ -69,7 +69,7 @@ export const TEAMMATES = [
     },
     {
         id: 6,
-        picture: '../../../assets/images/team/team_6.webp',
+        picture: '/assets/images/team/team_6.webp',
         colorPicture: '/assets/images/team/team_color_6.webp',
         name: 'Anna Wfacebookon',
         facebook: '#id6_facebook',
@@ -81,7 +81,7 @@ export const TEAMMATES = [
     },
     {
         id: 7,
-        picture: '../../../assets/images/team/team_7.webp',
+        picture: '/assets/images/team/team_7.webp',
         colorPicture: '/assets/images/team/team_color_7.webp',
         name: 'Lory Pag',
         facebook: '#id7_facebook',
@@ -93,7 +93,7 @@ export const TEAMMATES = [
     },
     {
         id: 8,
-        picture: '../../../assets/images/team/team_8.webp',
+        picture: '/assets/images/team/team_8.webp',
         colorPicture: '/assets/images/team/team_color_8.webp',
         name: 'Boris Razor',
         facebook: '#id8_facebook',
@@ -105,7 +105,7 @@ export const TEAMMATES = [
     },
     {
         id: 9,
-        picture: '../../../assets/images/team/team_0.webp',
+        picture: '/assets/images/team/team_0.webp',
         colorPicture: '/assets/images/team/team_color_0.webp',
         name: 'Jack Week',
         facebook: '#id0_facebook',
@@ -117,7 +117,7 @@ export const TEAMMATES = [
     },
     {
         id: 10,
-        picture: '../../../assets/images/team/team_1.webp',
+        picture: '/assets/images/team/team_1.webp',
         colorPicture: '/assets/images/team/team_color_1.webp',
         name: 'John Week',
         facebook: '#id1_facebook',
@@ -129,7 +129,7 @@ export const TEAMMATES = [
     },
     {
         id: 11,
-        picture: '../../../assets/images/team/team_8.webp',
+        picture: '/assets/images/team/team_8.webp',
         colorPicture: '/assets/images/team/team_color_8.webp',
         name: 'Boris Razor',
         facebook: '#id8_facebook',
@@ -141,7 +141,7 @@ export const TEAMMATES = [
     },
     {
         id: 12,
-        picture: '../../../assets/images/team/team_2.webp',
+        picture: '/assets/images/team/team_2.webp',
         colorPicture: '/assets/images/team/team_color_2.webp',
         name: 'Yuri Hock',
         facebook: '#id2_facebook',
@@ -153,7 +153,7 @@ export const TEAMMATES = [
     },
     {
         id: 13,
-        picture: '../../../assets/images/team/team_3.webp',
+        picture: '/assets/images/team/team_3.webp',
         colorPicture: '/assets/images/team/team_color_3.webp',
         name: 'Elli Week',
         facebook: '#id3_facebook',
@@ -165,7 +165,7 @@ export const TEAMMATES = [
     },
     {
         id: 14,
-        picture: '../../../assets/images/team/team_4.webp',
+        picture: '/assets/images/team/team_4.webp',
         colorPicture: '/assets/images/team/team_color_4.webp',
         name: 'Abrakadabra Week',
         facebook: '#id4_facebook',
@@ -177,7 +177,7 @@ export const TEAMMATES = [
     },
     {
         id: 15,
-        picture: '../../../assets/images/team/team_5.webp',
+        picture: '/assets/images/team/team_5.webp',
         colorPicture: '/assets/images/team/team_color_5.webp',
         name: 'Eva Pool',
         facebook: '#id5_facebook',
@@ -189,7 +189,7 @@ export const TEAMMATES = [
     },
     {
         id: 16,
-        picture: '../../../assets/images/team/team_6.webp',
+        picture: '/assets/images/team/team_6.webp',
         colorPicture: '/assets/images/team/team_color_6.webp',
         name: 'Anna Wfacebookon',
         facebook: '#id6_facebook',
@@ -201,7 +201,7 @@ export const TEAMMATES = [
     },
     {
         id: 17,
-        picture: '../../../assets/images/team/team_7.webp',
+        picture: '/assets/images/team/team_7.webp',
         colorPicture: '/assets/images/team/team_color_7.webp',
         name: 'Lory Pag',
         facebook: '#id7_facebook',

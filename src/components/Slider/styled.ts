@@ -56,11 +56,11 @@ export const Button = styled.button<SliderButton>`
     margin-right: ${({ theme, direction }) => (direction === 'left' ? theme.margin.m2 : 0)}px;
     background: ${({ theme, direction, disabled }) => {
         if (disabled) {
-            return `url(../../assets/icons/${direction}_arrow_disabled.svg) no-repeat center
+            return `url(/assets/icons/${direction}_arrow_disabled.svg) no-repeat center
                     ${theme.colors.tertiary};
             `;
         }
-        return `url(../../assets/icons/${direction}_arrow.svg) no-repeat center
+        return `url(/assets/icons/${direction}_arrow.svg) no-repeat center
                 ${theme.colors.tertiary};
         `;
     }};
@@ -68,11 +68,11 @@ export const Button = styled.button<SliderButton>`
     &:hover {
         background: ${({ theme, direction, disabled }) => {
             if (disabled) {
-                return `url(../../assets/icons/${direction}_arrow_disabled.svg) no-repeat center
+                return `url(/assets/icons/${direction}_arrow_disabled.svg) no-repeat center
                     ${theme.colors.tertiary};
             `;
             }
-            return `url(../../assets/icons/${direction}_arrow.svg) no-repeat center ${
+            return `url(/assets/icons/${direction}_arrow.svg) no-repeat center ${
                 direction ? `${direction} 40%` : ''
             }
                 ${theme.colors.tertiary};

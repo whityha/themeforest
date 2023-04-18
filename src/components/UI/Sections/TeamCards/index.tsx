@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
+import TeamCard from '@/components/UI/Cards/TeamCard';
 import { TEAMMATES } from '@/constants/Mocks/OurTeam';
-
-import TeamCard from '../../Cards/TeamCard';
 
 import { ADD_CARDS_COUNT, START_CARDS_COUNT } from './config';
 import { Content, Wrapper } from './styled';

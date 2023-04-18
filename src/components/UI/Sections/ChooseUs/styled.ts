@@ -52,6 +52,6 @@ export const AdvantageItem = styled.li`
 
 export const AdvTitle = styled(Title6)`
     padding-left: ${({ theme }) => theme.padding.p3}px;
-    background: url('../../../../assets/icons/v_blue.svg') no-repeat center left;
+    background: url('/assets/icons/v_blue.svg') no-repeat center left;
     margin-bottom: ${({ theme }) => theme.margin.m1}px;
 `;

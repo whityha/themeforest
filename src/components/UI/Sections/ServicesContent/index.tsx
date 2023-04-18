@@ -20,7 +20,7 @@ const SectionServicesContent = ({ routeID }: { routeID: string }) => {
                         consequat felis vel pretium. Aliquam gravida nisi vel convallis ultricies.
                         Integer ante sapien, consequat et dolor vel.
                     </Subtext>
-                    <Image src="../../../../assets/images/services/1.webp" alt="serviceImage" />
+                    <Image src="/assets/images/services/1.webp" alt="serviceImage" />
                     <Title>Challenge</Title>
                     <Subtext>
                         Donec tincidunt tempor quam, non mollis quam finibus nec. Quisque finibus
@@ -36,11 +36,7 @@ const SectionServicesContent = ({ routeID }: { routeID: string }) => {
                         Integer ante sapien, consequat et dolor vel.
                     </Subtext>
                     <FlexBox>
-                        <Image
-                            w={53}
-                            src="../../../../assets/images/services/2.webp"
-                            alt="serviceImage"
-                        />
+                        <Image w={53} src="/assets/images/services/2.webp" alt="serviceImage" />
                         <List>
                             <ListItem>Hid mobile access </ListItem>
                             <ListItem>Location services</ListItem>

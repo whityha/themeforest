@@ -40,7 +40,7 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
-    background: url('../../../../assets/icons/v_blue.svg') no-repeat center left;
+    background: url('/assets/icons/v_blue.svg') no-repeat center left;
     padding-left: ${({ theme }) => theme.padding.p3}px;
     font-size: ${({ theme }) => theme.fontSize.s6}px;
     line-height: ${({ theme }) => theme.lineHeight.large};

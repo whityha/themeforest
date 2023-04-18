@@ -30,11 +30,11 @@ const Link = styled.a`
 `;
 
 export const Linkedin = styled(Link)`
-    background: url('../../../../assets/icons/socials/linkedin.svg') no-repeat center center;
+    background: url('/assets/icons/socials/linkedin.svg') no-repeat center center;
 `;
 
 export const Facebook = styled(Link)`
-    background: url('../../../../assets/icons/socials/facebook.svg') no-repeat center center;
+    background: url('/assets/icons/socials/facebook.svg') no-repeat center center;
 `;
 
 export const Wrapper = styled.div`

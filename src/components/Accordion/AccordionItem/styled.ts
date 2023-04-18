@@ -11,11 +11,11 @@ export const Main = styled.div`
     padding: ${({ theme }) => theme.padding.p2}px 0px;
     color: ${({ theme }) => theme.colors.black};
     font-size: ${({ theme }) => theme.fontSize.s5}px;
-    background: url('../../assets/icons/services/quote.svg') no-repeat center right;
+    background: url('/assets/icons/services/quote.svg') no-repeat center right;
     transition: background ${({ theme }) => theme.transition.fast}s;
     cursor: pointer;
     &:hover {
-        background: url('../../assets/icons/services/quote.svg') no-repeat center right 5%;
+        background: url('/assets/icons/services/quote.svg') no-repeat center right 5%;
     }
 `;
 

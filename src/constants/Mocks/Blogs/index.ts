@@ -8,7 +8,7 @@ export const BLOG_NEWS = [
         author: 'Pavel Khapaliuk',
         tags: [TAGS.App, TAGS.BigData, TAGS.Data],
         date: '11 June 2022',
-        imageLink: '../../../../assets/images/blogNews/0.webp',
+        imageLink: '/assets/images/blogNews/0.webp',
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
     },
@@ -19,7 +19,7 @@ export const BLOG_NEWS = [
         author: 'Pavel Khapaliuk',
         tags: [TAGS.CIO, TAGS.Future, TAGS.Proxy, TAGS.InformationSecurity],
         views: 24,
-        imageLink: '../../../../assets/images/blogNews/2.webp',
+        imageLink: '/assets/images/blogNews/2.webp',
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
     },
@@ -30,7 +30,7 @@ export const BLOG_NEWS = [
         author: 'Mike Borzov',
         date: '12 June 2022',
         tags: [TAGS.Media, TAGS.Future],
-        imageLink: '../../../../assets/images/blogNews/2.webp',
+        imageLink: '/assets/images/blogNews/2.webp',
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
     },
@@ -41,7 +41,7 @@ export const BLOG_NEWS = [
         author: 'Barack Obama',
         date: '13 June 2022',
         tags: [TAGS.DataAnalytics, TAGS.CIO, TAGS.Data, TAGS.App, TAGS.Team],
-        imageLink: '../../../../assets/images/blogNews/3.webp',
+        imageLink: '/assets/images/blogNews/3.webp',
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
     },
@@ -51,7 +51,7 @@ export const BLOG_NEWS = [
         views: 441,
         author: 'John Travolta',
         date: '14 June 2022',
-        imageLink: '../../../../assets/images/blogNews/1.webp',
+        imageLink: '/assets/images/blogNews/1.webp',
         tags: [TAGS.CMR, TAGS.CIO, TAGS.DataAnalytics, TAGS.Startup, TAGS.App],
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
@@ -62,7 +62,7 @@ export const BLOG_NEWS = [
         views: 511,
         author: 'Sidney Crosby',
         date: '15 June 2022',
-        imageLink: '../../../../assets/images/blogNews/1.webp',
+        imageLink: '/assets/images/blogNews/1.webp',
         tags: [TAGS.CMR, TAGS.CIO, TAGS.DataAnalytics, TAGS.BigData, TAGS.Future, TAGS.Management],
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
@@ -75,7 +75,7 @@ export const BLOG_NEWS = [
         date: '13 June 2022',
         tags: [TAGS.Proxy, TAGS.Media, TAGS.BigData, TAGS.Future, TAGS.Management],
 
-        imageLink: '../../../../assets/images/blogNews/4.webp',
+        imageLink: '/assets/images/blogNews/4.webp',
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
     },
@@ -85,7 +85,7 @@ export const BLOG_NEWS = [
         author: 'Igor Igor',
         views: 232,
         date: '14 June 2022',
-        imageLink: '../../../../assets/images/blogNews/5.webp',
+        imageLink: '/assets/images/blogNews/5.webp',
         tags: [TAGS.Media, TAGS.BigData, TAGS.Future, TAGS.Management, TAGS.App],
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
@@ -97,7 +97,7 @@ export const BLOG_NEWS = [
         author: 'Samson Yuxer',
         date: '15 June 2022',
         tags: [TAGS.Media],
-        imageLink: '../../../../assets/images/blogNews/0.webp',
+        imageLink: '/assets/images/blogNews/0.webp',
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
     },
@@ -108,7 +108,7 @@ export const BLOG_NEWS = [
         author: 'Blog Admin',
         date: '13 June 2022',
         tags: [TAGS.CMR, TAGS.Team],
-        imageLink: '../../../../assets/images/blogNews/7.webp',
+        imageLink: '/assets/images/blogNews/7.webp',
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
     },
@@ -119,7 +119,7 @@ export const BLOG_NEWS = [
         date: '14 June 2022',
         author: 'Anonimus user',
         tags: [TAGS.DataAnalytics, TAGS.Future],
-        imageLink: '../../../../assets/images/blogNews/9.webp',
+        imageLink: '/assets/images/blogNews/9.webp',
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
     },
@@ -130,7 +130,7 @@ export const BLOG_NEWS = [
         date: '15 June 2022',
         author: 'Your love',
         tags: [TAGS.Proxy, TAGS.Team],
-        imageLink: '../../../../assets/images/blogNews/8.webp',
+        imageLink: '/assets/images/blogNews/8.webp',
         subtext:
             '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',
     },

@@ -11,7 +11,7 @@ const SectionRadically = () => {
     return (
         <Wrapper background={Backgrounds.Grey}>
             <ImageContainer>
-                <Image src="../../../../assets/images/radically_image.webp" alt="teamImage" />
+                <Image src="/assets/images/radically_image.webp" alt="teamImage" />
             </ImageContainer>
             <Content>
                 <Title>{t('Radically.title')}</Title>

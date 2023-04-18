@@ -24,7 +24,7 @@ const SectionAboutUsContent = () => {
                             lectus.
                         </Subtext>
                     </FlexBox>
-                    <Image src="../../../../assets/images/aboutUs/1.webp" />
+                    <Image src="/assets/images/aboutUs/1.webp" />
                 </FlexBox>
                 <FlexBox cg={30} direction="row-reverse" alignItems="start">
                     <FlexBox direction="column" rg={30}>
@@ -40,7 +40,7 @@ const SectionAboutUsContent = () => {
                             finibus consequat felis vel pretium.
                         </Subtext>
                     </FlexBox>
-                    <Image src="../../../../assets/images/aboutUs/2.webp" />
+                    <Image src="/assets/images/aboutUs/2.webp" />
                 </FlexBox>
             </Content>
         </Wrapper>

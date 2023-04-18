@@ -27,7 +27,7 @@ export const Possibilities = styled.ul`
 export const Possibility = styled.li`
     color: ${({ theme }) => theme.colors.black};
     padding-left: ${({ theme }) => theme.padding.p3}px;
-    background: url(../../../assets/icons/v_blue.svg) no-repeat left center;
+    background: url(/assets/icons/v_blue.svg) no-repeat left center;
 `;
 
 export const Label = styled.label`
@@ -73,7 +73,7 @@ export const Wrapper = styled.div`
         background: ${({ theme }) => theme.colors.white};
     }
     &:hover ${Possibility} {
-        background: url(../../../assets/icons/v_white.svg) no-repeat left center;
+        background: url(/assets/icons/v_white.svg) no-repeat left center;
     }
     &:hover ${Label} {
         background: ${({ theme }) => theme.colors.blue};

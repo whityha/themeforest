@@ -35,7 +35,7 @@ const Footer = () => {
                     <Subtext>{t('footer.subtext')}</Subtext>
                     <IconsList>
                         {SOCIAL_ICONS.map((name) => (
-                            <Icon key={name} src={`../../assets/icons/socials/${name}.svg`} />
+                            <Icon key={name} src={`/assets/icons/socials/${name}.svg`} />
                         ))}
                     </IconsList>
                 </SocialsBlock>

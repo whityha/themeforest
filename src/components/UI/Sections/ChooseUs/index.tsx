@@ -22,7 +22,7 @@ const SectionChooseUs = () => {
     return (
         <Wrapper background={Backgrounds.Grey}>
             <ImageContainer>
-                <Image src="../../../../assets/images/choose_us_image.webp" alt="teamImage" />
+                <Image src="/assets/images/choose_us_image.webp" alt="teamImage" />
             </ImageContainer>
             <Content>
                 <Title>{t('ChooseUs.title')}</Title>
