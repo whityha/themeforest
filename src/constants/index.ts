@@ -7,6 +7,10 @@ export const APP_EMAIL_TEMPLATE_ID = process.env.APP_EMAIL_TEMPLATE_ID || '';
 export const APP_EMAIL_PUBLIC_KEY = process.env.APP_EMAIL_PUBLIC_KEY || '';
 
 export const APP_EMAIL_TEMPLATE_ID_AUTOSEND = process.env.APP_EMAIL_TEMPLATE_ID_AUTOSEND || '';
+export const APP_EMAIL_TEMPLATE_ID_PERSON_CONTACT =
+    process.env.APP_EMAIL_TEMPLATE_ID_PERSON_CONTACT || '';
+
+export const APP_MAPBOX_TOKEN = process.env.APP_MAPBOX_TOKEN || '';
 
 export const STATS_NUMBERS = [
     {

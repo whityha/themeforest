@@ -52,6 +52,7 @@ export const theme = {
         m12: 120,
     },
     fontSize: {
+        extra: 80,
         s0: 57,
         s1: 46,
         s2: 38,

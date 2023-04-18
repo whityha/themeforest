@@ -14,7 +14,7 @@ const RelatedPosts = ({ currentPost }: { currentPost: Article }) => {
     useEffect(() => {
         const { id } = currentPost;
         setPostsWithSameTags(getPostsWithSameTags(id).data);
-    });
+    }, [currentPost]);
 
     return (
         <RelatedPostsContainer>

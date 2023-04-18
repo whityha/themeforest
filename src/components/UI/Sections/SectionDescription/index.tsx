@@ -17,12 +17,12 @@ import {
     Wrapper,
 } from './styled';
 
-const SectionDescription = ({ id }: { id: string }) => {
+const SectionDescription = ({ id }: { id?: string }) => {
     const [currentThesis, setCurrentThesis] = useState<number>(0);
     const { t } = useTranslation();
     const refArray = useRef<HTMLDivElement[]>([]);
 
-    const solution = SOLUTIONS_PAGE_DATA[id];
+    const solution = SOLUTIONS_PAGE_DATA[id!];
 
     const addToRefs = useCallback((el: HTMLDivElement | null, index: number) => {
         if (!el || refArray.current.includes(el)) return;

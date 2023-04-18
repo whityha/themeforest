@@ -9,8 +9,8 @@ const Breadcrumbs = ({
     paths,
     background,
 }: {
-    center?: boolean;
     paths: Array<string>;
+    center?: boolean;
     background?: Backgrounds;
 }) => {
     return (

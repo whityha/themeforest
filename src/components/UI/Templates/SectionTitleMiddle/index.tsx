@@ -5,11 +5,15 @@ import { Backgrounds } from '@/types';
 
 import { Title, Wrapper } from './styled';
 
-const SectionTitleMiddle = ({ title }: { title: string }) => {
+const SectionTitleMiddle = ({ title, path }: { path?: string[]; title: string }) => {
     return (
         <Wrapper background={Backgrounds.Grey}>
             <Title>{title}</Title>
-            <Breadcrumbs paths={['Home', `${title}`]} />
+            {path ? (
+                <Breadcrumbs paths={[...path, `${title}`]} />
+            ) : (
+                <Breadcrumbs paths={['Home', `${title}`]} />
+            )}
         </Wrapper>
     );
 };

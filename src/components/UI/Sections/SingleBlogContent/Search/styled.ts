@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 import { Button } from '@/theme/UI/Button';
-import { Parag3 } from '@/theme/UI/Paragraphs';
 
 export const Wrapper = styled.div`
     display: flex;

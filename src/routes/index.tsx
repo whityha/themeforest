@@ -3,6 +3,7 @@ import React from 'react';
 import AboutUs from '@/pages/AboutUs';
 import Blog from '@/pages/Blog';
 import BlogSingle from '@/pages/BlogSingle';
+import Contacts from '@/pages/Contacts';
 import FAQ from '@/pages/FAQ';
 import Home from '@/pages/Home';
 import OurTeam from '@/pages/OurTeam';
@@ -10,6 +11,7 @@ import Services from '@/pages/Services';
 import ServicesSingle from '@/pages/ServicesSingle';
 import Solutions from '@/pages/Solutions';
 import SolutionSingle from '@/pages/SolutionSingle';
+import TeamSingle from '@/pages/TeamSingle';
 
 export const ALL_ROUTES = [
     {
@@ -40,7 +42,7 @@ export const ALL_ROUTES = [
     {
         path: '/contacts',
         name: 'contacts',
-        element: <Solutions />,
+        element: <Contacts />,
     },
     {
         path: '/solutions/:id',
@@ -77,6 +79,11 @@ export const ALL_ROUTES = [
         name: 'team',
         element: <OurTeam />,
     },
+    {
+        path: '/team/:id',
+        name: 'teamSingle',
+        element: <TeamSingle />,
+    },
 ];
 
 export const NAVBAR_ROUTES = ALL_ROUTES.filter(
@@ -89,5 +96,6 @@ export const NAVBAR_ROUTES = ALL_ROUTES.filter(
             'about_us',
             'blogSingle',
             'team',
+            'teamSingle',
         ].includes(name)
 );

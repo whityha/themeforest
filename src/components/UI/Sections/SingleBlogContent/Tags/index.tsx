@@ -41,9 +41,9 @@ const Tags = ({ setPosts }: { setPosts: (items: SameTagsPosts) => void }) => {
                     All topics
                 </Tag>
                 {tags.map((tag) => {
-                    const active = activeTags.includes(tag);
+                    const isActive = activeTags.includes(tag);
                     return (
-                        <Tag onClick={handleActiveTag(tag)} active={active} key={tag}>
+                        <Tag onClick={handleActiveTag(tag)} active={isActive} key={tag}>
                             {tag}
                         </Tag>
                     );

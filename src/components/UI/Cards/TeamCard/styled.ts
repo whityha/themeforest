@@ -9,17 +9,6 @@ export const Image = styled.img`
     height: 100%;
 `;
 
-const Link = styled.a`
-    display: flex;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    transition: ${({ theme }) => theme.transition.fast}s;
-    &:hover {
-        transform: scale(1.1);
-    }
-`;
-
 export const Socials = styled.div`
     display: flex;
     position: absolute;
@@ -28,6 +17,16 @@ export const Socials = styled.div`
     transform: translateY(100%);
     opacity: 0;
     transition: ${({ theme }) => theme.transition.fast}s;
+`;
+const Link = styled.a`
+    display: flex;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: ${({ theme }) => theme.transition.fast}s;
+    &:hover {
+        transform: translateY(-10%);
+    }
 `;
 
 export const Linkedin = styled(Link)`

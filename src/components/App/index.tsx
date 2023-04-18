@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { ALL_ROUTES } from '@/routes';
 
 import './fonts.css';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 const App = () => {
     return (
