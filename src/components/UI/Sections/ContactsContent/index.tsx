@@ -2,7 +2,7 @@ import React from 'react';
 
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { Address, Email, Phone } from '@/components/Contacts';
-import { colorWord } from '@/utils/colorWord';
+import { makeSubstringBlue } from '@/utils/makeSubstringBlue';
 
 import ContactForm from './ContactForm';
 import {
@@ -21,7 +21,7 @@ const SectionContactsContent = () => {
             <Content>
                 <Breadcrumbs paths={['Home', 'Contacts']} />
                 <FormContainer>
-                    <Title>{colorWord('How can we help you?', 'help you?')}</Title>
+                    <Title>{makeSubstringBlue('How can we help you?', 'help you?')}</Title>
                     <ContactForm />
                 </FormContainer>
                 <Contacts>

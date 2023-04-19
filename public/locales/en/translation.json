@@ -265,7 +265,7 @@
         "subtext": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
       }
     },
-    "EmailSender": {
+    "SubscribeInput": {
       "button": "Send",
       "placeholder": "Your email",
       "error": "Please, choose a valid email"

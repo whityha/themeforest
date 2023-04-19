@@ -72,7 +72,7 @@ const ContactForm = () => {
                             {isSending ? (
                                 <Puff height="30" width="30" radius={1} color="#b9b9b9" visible />
                             ) : (
-                                <Title6>{t('EmailSender.button')}</Title6>
+                                <Title6>{t('SubscribeInput.button')}</Title6>
                             )}
                         </SubmitButton>
                     </FormContainer>

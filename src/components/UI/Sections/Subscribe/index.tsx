@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import EmailSender from '@/components/EmailSenderInput';
+import SubscribeInput from '@/components/SubscribeInput';
 import { Backgrounds } from '@/types';
 
 import FlexBox from '../../FlexBox';
@@ -18,7 +18,7 @@ const SectionSubscribe = ({ background }: { background?: Backgrounds }) => {
                     <Subtext>{t('Subscribe.subtext')}</Subtext>
                 </DescriptionContainer>
                 <FlexBox w={50} alignItems="center" justifyContent="flex-end">
-                    <EmailSender />
+                    <SubscribeInput />
                 </FlexBox>
             </Content>
         </Wrapper>

@@ -19,7 +19,7 @@ const SolutionSingle = () => {
             <SectionSolutionTitle id={id as string} />
             <SectionDescription id={id as string} />
             <SectionNeedHelp />
-            <SectionSubscribe />
+            <SectionSubscribe background={Backgrounds.Blue} />
             <Footer />
         </>
     );

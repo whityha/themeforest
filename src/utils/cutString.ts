@@ -1,3 +1,3 @@
-export const cutString = (string: string, limit: number) => {
-    return string.length >= limit ? `${string.slice(0, limit)}...` : string;
+export const cutString = (initialString: string, limit: number) => {
+    return initialString.length >= limit ? `${initialString.slice(0, limit)}...` : initialString;
 };
