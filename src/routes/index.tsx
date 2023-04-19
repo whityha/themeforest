@@ -7,6 +7,7 @@ import Contacts from '@/pages/Contacts';
 import FAQ from '@/pages/FAQ';
 import Home from '@/pages/Home';
 import OurTeam from '@/pages/OurTeam';
+import Page404 from '@/pages/Page404';
 import Services from '@/pages/Services';
 import ServicesSingle from '@/pages/ServicesSingle';
 import Solutions from '@/pages/Solutions';
@@ -84,6 +85,11 @@ export const ALL_ROUTES = [
         name: 'teamSingle',
         element: <TeamSingle />,
     },
+    {
+        path: '/*',
+        name: 'error',
+        element: <Page404 />,
+    },
 ];
 
 export const NAVBAR_ROUTES = ALL_ROUTES.filter(
@@ -97,5 +103,6 @@ export const NAVBAR_ROUTES = ALL_ROUTES.filter(
             'blogSingle',
             'team',
             'teamSingle',
+            'error',
         ].includes(name)
 );

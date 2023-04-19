@@ -2,18 +2,17 @@ import React from 'react';
 
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import { SectionBlogContent, SectionTitleBlog } from '@/components/UI/Sections';
+import { SectionPageError } from '@/components/UI/Sections';
 import { Backgrounds } from '@/types';
 
-const Blog = () => {
+const Page404 = () => {
     return (
         <>
             <Header background={Backgrounds.DarkBlue} />
-            <SectionTitleBlog />
-            <SectionBlogContent />
+            <SectionPageError />
             <Footer />
         </>
     );
 };
 
-export default Blog;
+export default Page404;

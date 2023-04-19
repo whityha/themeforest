@@ -1,12 +1,14 @@
 import SectionAboutUsContent from './AboutUsContent';
 import SectionAboutUsNumbers from './AboutUsNumbers';
 import SectionBenefits from './Benefits';
+import SectionBlogContent from './BlogContent';
 import SectionChooseUs from './ChooseUs';
 import SectionContactInformation from './ContactInformation';
 import SectionContactsContent from './ContactsContent';
 import SectionContactUs from './ContactUs';
 import SectionNeedHelp from './DoYouNeedHelp';
 import SectionEnsome from './Ensome';
+import SectionPageError from './ErrorContent';
 import SectionFAQTitle from './FAQ';
 import SectionNewestPlatform from './NewestPlatform';
 import SectionOurBlog from './OurBlog';
@@ -37,6 +39,8 @@ export {
     SectionContactUs,
     SectionOurCustomers,
     SectionSingleBlogTitle,
+    SectionBlogContent,
+    SectionPageError,
     SectionContentSingleBlog,
     SectionTitleBlog,
     SectionPersonTitle,
