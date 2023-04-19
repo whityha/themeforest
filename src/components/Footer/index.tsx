@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 import Logo from '@/components/Logo';
-import { Parag3 } from '@/theme/UI/Paragraphs';
+import { PATHS } from '@/routes';
 
 import { Address, Email, Phone } from '../Contacts';
 
@@ -42,18 +42,30 @@ const Footer = () => {
                 <InfoBox>
                     <Title>{t('footer.quick')}</Title>
                     <LinksList>
-                        <LinkItem>Home</LinkItem>
-                        <LinkItem>Solutions</LinkItem>
-                        <LinkItem>Blog</LinkItem>
-                        <LinkItem>Contacts</LinkItem>
                         <LinkItem>
-                            <Link to="/team">Our team</Link>
+                            <Link to={PATHS.Home}>Home</Link>
                         </LinkItem>
                         <LinkItem>
-                            <Link to="/about_us">About Us</Link>
+                            <Link to={PATHS.Solutions}>Solutions</Link>
                         </LinkItem>
-                        <LinkItem>Services</LinkItem>
-                        <LinkItem>FAQ</LinkItem>
+                        <LinkItem>
+                            <Link to={PATHS.Blog}>Blog</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Link to={PATHS.Contacts}>Contacts</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Link to={PATHS.Team}>Our team</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Link to={PATHS.AboutUs}>About Us</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Link to={PATHS.Services}>Services</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Link to={PATHS.Faq}>FAQ</Link>
+                        </LinkItem>
                     </LinksList>
                 </InfoBox>
                 <InfoBox>
@@ -62,7 +74,7 @@ const Footer = () => {
                         <LinkItem>Pages</LinkItem>
                         <LinkItem>Elements</LinkItem>
                         <LinkItem>
-                            <Link to="/faq">FAQ</Link>
+                            <Link to={PATHS.Faq}>FAQ</Link>
                         </LinkItem>
                         <LinkItem>Pricing</LinkItem>
                         <LinkItem>Site map</LinkItem>

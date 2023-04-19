@@ -1,6 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
+import { PATHS } from '@/routes';
 import { Title6 } from '@/theme/UI/Titles';
 import { Backgrounds } from '@/types';
 
@@ -16,9 +18,11 @@ const SectionRadically = () => {
             <Content>
                 <Title>{t('Radically.title')}</Title>
                 <SubTitle>{t('Radically.subtext')}</SubTitle>
-                <ButtonLearn>
-                    <Title6>{t('Radically.button')}</Title6>
-                </ButtonLearn>
+                <Link to={PATHS.Solutions}>
+                    <ButtonLearn>
+                        <Title6>{t('Radically.button')}</Title6>
+                    </ButtonLearn>
+                </Link>
             </Content>
         </Wrapper>
     );

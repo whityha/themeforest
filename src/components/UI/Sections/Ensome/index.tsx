@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 import FlexBox from '@/components/UI/FlexBox';
+import { PATHS } from '@/routes';
 import { BlueText } from '@/theme/UI/BlueText';
 import { Title7 } from '@/theme/UI/Titles';
 
@@ -19,13 +20,13 @@ const SectionEnsome = () => {
                 <FlexBox d="flex" w={33}>
                     <SubTitle>{t('Ensome.subtext')}</SubTitle>
                 </FlexBox>
-                <Link to="/services">
+                <Link to={PATHS.Services}>
                     <ButtonMore>
                         <Title7>{t('Ensome.button')}</Title7>
                     </ButtonMore>
                 </Link>
             </Content>
-            <Image src="../../assets/images/home_large.webp" alt="teamImage" />
+            <Image src="/assets/images/home_large.webp" alt="teamImage" />
         </Wrapper>
     );
 };
