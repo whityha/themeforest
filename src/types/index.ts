@@ -1,3 +1,6 @@
+import { SERVICES_CARDS_DATA } from '@/constants/Mocks/Services';
+
+export type ServicesCardsDataType = typeof SERVICES_CARDS_DATA;
 export interface FlexBox {
     children: React.ReactNode;
     d?: string;

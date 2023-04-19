@@ -20,7 +20,7 @@ export const Wrapper = styled(Button)<ButtonProps>`
     &:hover {
         background: url('/assets/icons/play.svg') no-repeat center left 5%,
             ${({ theme }) => theme.colors.lightBlue};
-        color: ${({ theme, light }) => (light ? theme.colors.white : theme.colors.darkBlue)};
+        color: ${({ theme, light }) => (light ? theme.colors.darkBlue : theme.colors.white)};
     }
     &:active {
         background: url('/assets/icons/play.svg') no-repeat center left 5%,

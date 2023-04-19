@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     display: flex;
 `;
 
-export const Input = styled(Parag3).attrs({ as: 'input' })`
+export const Input = styled(Parag3).attrs({ as: 'input' })<{ value: string }>`
     flex-grow: 1;
     margin-right: ${({ theme }) => -theme.margin.m1}px;
     color: ${({ theme }) => theme.colors.grey};
@@ -19,4 +19,11 @@ export const Input = styled(Parag3).attrs({ as: 'input' })`
 export const SearchButton = styled(Button)`
     font-size: ${({ theme }) => theme.fontSize.s6}px;
     padding: ${({ theme }) => `0px ${theme.padding.p3}px`};
+`;
+
+export const Container = styled.div`
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: ${({ theme }) => theme.margin.m6}px;
 `;

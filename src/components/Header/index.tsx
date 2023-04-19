@@ -12,7 +12,7 @@ const Header = ({ background }: { background: Backgrounds }) => {
         <OuterWrapper background={background}>
             <InnerWrapper>
                 <Logo color={background === 'darkBlue' ? 'white' : 'blue'} />
-                <Navbar light={background === 'darkBlue'} />
+                <Navbar light={background !== 'darkBlue'} />
                 <VideoButton light={background === 'darkBlue'} />
             </InnerWrapper>
         </OuterWrapper>

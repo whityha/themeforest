@@ -10,10 +10,29 @@ interface ListItem {
 }
 
 export const ListItem = styled.li<ListItem>`
-    color: ${({ theme, light }) => (light ? theme.colors.white : theme.colors.grey)};
+    position: relative;
+    color: ${({ theme, light }) => (light ? theme.colors.grey : theme.colors.white)};
     transition: ${({ theme }) => theme.transition.fast}s;
     &:hover {
-        color: ${({ theme, light }) => (light ? theme.colors.grey : theme.colors.black)};
-        transform: translate(0, -15%);
+        color: ${({ theme, light }) => (light ? theme.colors.black : theme.colors.white)};
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 1px;
+        opacity: 0;
+        /* background: ${({ theme, light }) =>
+            light ? theme.colors.darkBlue : theme.colors.background}; */
+        background: ${({ theme, light }) => (light ? theme.colors.darkBlue : theme.colors.white)};
+        transition: ${({ theme }) => theme.transition.fast}s;
+        transform: translateY(-100%);
+    }
+    &:hover:after {
+        opacity: 1;
+        transform: translateY(0);
     }
 `;

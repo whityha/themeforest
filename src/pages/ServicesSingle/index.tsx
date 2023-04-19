@@ -12,12 +12,12 @@ import {
 import { Backgrounds } from '@/types';
 
 const ServicesSingle = () => {
-    const { id } = useParams();
+    const { id } = useParams<{ id: string }>();
     return (
         <>
             <Header background={Backgrounds.DarkBlue} />
-            <SectionServicesTitle id={id as string} background={Backgrounds.DarkBlue} />
-            <SectionServicesContent routeID={id as string} />
+            <SectionServicesTitle id={id!} background={Backgrounds.DarkBlue} />
+            <SectionServicesContent routeID={id!} />
             <SectionContactInformation />
             <SectionSubscribe background={Backgrounds.DarkBlue} />
             <Footer />
