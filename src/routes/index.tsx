@@ -37,7 +37,7 @@ export enum PATHS {
     Services = '/services',
     Solutions = '/solutions',
     Contacts = '/contacts',
-    SolutionSingle = '/solution/:id',
+    SolutionSingle = '/solutions/:id',
     ServicesSingle = '/services/:id',
     Blog = '/blog',
     Faq = '/faq',
@@ -57,7 +57,7 @@ export const ALL_ROUTES = [
         element: <Home />,
     },
     {
-        path: PATHS.Home,
+        path: PATHS.Services,
         name: PAGES.Services,
         element: <Services />,
     },

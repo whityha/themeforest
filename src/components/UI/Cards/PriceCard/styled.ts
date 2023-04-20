@@ -30,6 +30,13 @@ export const Possibility = styled.li`
     background: url(/assets/icons/v_blue.svg) no-repeat left center;
 `;
 
+export const PriceContainer = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    width: 100%;
+`;
+
 export const Label = styled.label`
     display: flex;
     align-items: center;

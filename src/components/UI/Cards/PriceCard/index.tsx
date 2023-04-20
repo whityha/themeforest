@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import Popup from '@/components/Popup';
 import { Parag3 } from '@/theme/UI/Paragraphs';
 import { Title7 } from '@/theme/UI/Titles';
 
-import FlexBox from '../../FlexBox';
-
+import PayPalModal from './PayPalModal';
 import {
     ButtonPlan,
     Input,
@@ -13,13 +13,12 @@ import {
     Possibilities,
     Possibility,
     Price,
+    PriceContainer,
     Title,
     Wrapper,
 } from './styled';
 
-const PriceCard = ({
-    options,
-}: {
+export interface PriceCard {
     options: {
         title: string;
         price: number | string;
@@ -27,13 +26,21 @@ const PriceCard = ({
         possibilitiesCount: number;
         buttonText: string;
     };
-}) => {
+}
+
+const PriceCard = ({ options }: PriceCard) => {
+    const [isOpen, setIsOpen] = useState(false);
     const { buttonText, title, price, possibilities, possibilitiesCount } = options;
     const { t } = useTranslation();
     return (
         <Wrapper>
+            {isOpen && (
+                <Popup close={() => setIsOpen(false)}>
+                    <PayPalModal options={{ title, price, possibilities, possibilitiesCount }} />
+                </Popup>
+            )}
             <Title>{title}</Title>
-            <FlexBox grow={0} w={100} justifyContent="flex-end" alignItems="start">
+            <PriceContainer>
                 <Price>{price}</Price>
                 <>
                     <Input id={`inputRadio${title}1`} type="radio" name={title} defaultChecked />
@@ -47,8 +54,8 @@ const PriceCard = ({
                         <Title7>Yr</Title7>
                     </Label>
                 </>
-            </FlexBox>
-            <ButtonPlan>
+            </PriceContainer>
+            <ButtonPlan onClick={() => setIsOpen(true)}>
                 <Title7>{buttonText}</Title7>
             </ButtonPlan>
             <Possibilities>
