@@ -98,6 +98,7 @@ export const LinkItem = styled.li`
 
 export const Policy = styled.div`
     display: flex;
+    column-gap: ${({ theme }) => theme.gap.g2}px;
     border-top: 1px solid ${({ theme }) => theme.colors.helperBlue2};
     width: ${({ theme }) => getWrapperWidth(theme)}px;
     margin: ${({ theme }) => `${theme.margin.m5}px auto 0 auto`};
@@ -111,7 +112,7 @@ export const Rights = styled(Parag3)`
 
 export const Privacy = styled(Parag3)`
     color: ${({ theme }) => theme.colors.grey};
-    margin-right: ${({ theme }) => theme.margin.m10}px;
+    margin-right: ${({ theme }) => theme.margin.m8}px;
 `;
 
 export const Terms = styled(Parag3)`

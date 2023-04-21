@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Logo from '@/components/Logo';
 
 import { Address, Email, Phone } from '../Contacts';
+import LanguageSelect from '../LanguageSelect';
 
 import { QUICK_LINKS, SERVICES_LINKS, SOCIAL_ICONS } from './config';
 import {
@@ -79,6 +80,7 @@ const Footer = () => {
             </Content>
             <Policy>
                 <Rights>{translation('footer.policy.rights')}</Rights>
+                <LanguageSelect />
                 <Privacy>{translation('footer.policy.privacy')}</Privacy>
                 <Terms>{translation('footer.policy.terms')}</Terms>
             </Policy>
