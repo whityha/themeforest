@@ -3,11 +3,10 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 import Logo from '@/components/Logo';
-import { PATHS } from '@/routes';
 
 import { Address, Email, Phone } from '../Contacts';
 
-import { SOCIAL_ICONS } from './config';
+import { QUICK_LINKS, SERVICES_LINKS, SOCIAL_ICONS } from './config';
 import {
     Content,
     Icon,
@@ -26,13 +25,13 @@ import {
 } from './styled';
 
 const Footer = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
             <Content>
                 <SocialsBlock>
                     <Logo color="white" />
-                    <Subtext>{t('footer.subtext')}</Subtext>
+                    <Subtext>{translation('footer.subtext')}</Subtext>
                     <IconsList>
                         {SOCIAL_ICONS.map((name) => (
                             <Icon key={name} src={`/assets/icons/socials/${name}.svg`} />
@@ -40,48 +39,31 @@ const Footer = () => {
                     </IconsList>
                 </SocialsBlock>
                 <InfoBox>
-                    <Title>{t('footer.quick')}</Title>
+                    <Title>{translation('footer.quick.title')}</Title>
                     <LinksList>
-                        <LinkItem>
-                            <Link to={PATHS.Home}>Home</Link>
-                        </LinkItem>
-                        <LinkItem>
-                            <Link to={PATHS.Solutions}>Solutions</Link>
-                        </LinkItem>
-                        <LinkItem>
-                            <Link to={PATHS.Blog}>Blog</Link>
-                        </LinkItem>
-                        <LinkItem>
-                            <Link to={PATHS.Contacts}>Contacts</Link>
-                        </LinkItem>
-                        <LinkItem>
-                            <Link to={PATHS.Team}>Our team</Link>
-                        </LinkItem>
-                        <LinkItem>
-                            <Link to={PATHS.AboutUs}>About Us</Link>
-                        </LinkItem>
-                        <LinkItem>
-                            <Link to={PATHS.Services}>Services</Link>
-                        </LinkItem>
-                        <LinkItem>
-                            <Link to={PATHS.Faq}>FAQ</Link>
-                        </LinkItem>
+                        {QUICK_LINKS.map(({ path, name }) => {
+                            return (
+                                <LinkItem key={name}>
+                                    <Link to={path}>{translation(name)}</Link>
+                                </LinkItem>
+                            );
+                        })}
                     </LinksList>
                 </InfoBox>
                 <InfoBox>
-                    <Title>{t('footer.service')}</Title>
+                    <Title>{translation('footer.services.title')}</Title>
                     <LinksList>
-                        <LinkItem>Pages</LinkItem>
-                        <LinkItem>Elements</LinkItem>
-                        <LinkItem>
-                            <Link to={PATHS.Faq}>FAQ</Link>
-                        </LinkItem>
-                        <LinkItem>Pricing</LinkItem>
-                        <LinkItem>Site map</LinkItem>
+                        {SERVICES_LINKS.map(({ name, path }) => {
+                            return (
+                                <LinkItem key={name}>
+                                    <Link to={path}>{translation(name)}</Link>
+                                </LinkItem>
+                            );
+                        })}
                     </LinksList>
                 </InfoBox>
                 <InfoBox>
-                    <Title>{t('footer.contact')}</Title>
+                    <Title>{translation('footer.contact')}</Title>
                     <LinksList>
                         <LinkItem>
                             <Email />
@@ -96,9 +78,9 @@ const Footer = () => {
                 </InfoBox>
             </Content>
             <Policy>
-                <Rights>{t('footer.policy.rights')}</Rights>
-                <Privacy>{t('footer.policy.privacy')}</Privacy>
-                <Terms>{t('footer.policy.terms')}</Terms>
+                <Rights>{translation('footer.policy.rights')}</Rights>
+                <Privacy>{translation('footer.policy.privacy')}</Privacy>
+                <Terms>{translation('footer.policy.terms')}</Terms>
             </Policy>
         </Wrapper>
     );

@@ -1,35 +1,58 @@
 export const QUICK_LINKS = [
     {
-        value: `footer.quick.home`,
+        name: `footer.quick.home`,
         path: '/',
     },
     {
-        value: `footer.quick.solutions`,
-        path: '/',
+        name: `footer.quick.solutions`,
+        path: '/solutions',
     },
     {
-        value: `footer.quick.blog`,
-        path: '/',
+        name: `footer.quick.blog`,
+        path: '/blog',
     },
     {
-        value: `footer.quick.contacts`,
-        path: '/',
+        name: `footer.quick.contacts`,
+        path: '/contacts',
     },
     {
-        value: `footer.quick.ourTeam`,
-        path: '/',
+        name: `footer.quick.ourTeam`,
+        path: '/team',
     },
     {
-        value: `footer.quick.aboutUs`,
-        path: '/',
+        name: `footer.quick.aboutUs`,
+        path: '/about_us',
     },
     {
-        value: `footer.quick.services`,
-        path: '/',
+        name: `footer.quick.services`,
+        path: '/services',
     },
     {
-        value: `footer.quick.faq`,
-        path: '/',
+        name: `footer.quick.faq`,
+        path: '/faq',
+    },
+];
+
+export const SERVICES_LINKS = [
+    {
+        name: `footer.services.pages`,
+        path: '',
+    },
+    {
+        name: `footer.services.elements`,
+        path: '',
+    },
+    {
+        name: `footer.quick.faq`,
+        path: '',
+    },
+    {
+        name: `footer.services.pricing`,
+        path: '/#price',
+    },
+    {
+        name: `footer.services.sitemap`,
+        path: '',
     },
 ];
 

@@ -14,8 +14,24 @@
   },
   "footer": {
     "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне",
-    "quick": "Ссылки",
-    "service": "Сервис",
+    "quick": {
+      "title":"Ссылки",
+      "home": "Главная",
+      "solutions": "Решения",
+      "blog": "Блог",
+      "contacts": "Контакты",
+      "ourTeam": "Команда",
+      "aboutUs": "О нас",
+      "services": "Сервисы",
+      "faq": "FAQ"
+    },
+    "services": {
+      "title":"Сервис",
+      "pages":"Страницы",
+      "elements":"Элементы",
+      "pricing": "Цены",
+      "sitemap": "Карта сайта"
+    },
     "contact": "Контактная информация",
     "policy": {
       "rights": "Ensome© 2022 All Rights Reserved",

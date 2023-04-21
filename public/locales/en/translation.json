@@ -14,8 +14,24 @@
     },
     "footer": {
       "subtext": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.",
-      "quick": "Quick link",
-      "service": "Service",
+      "quick": {
+        "title": "Quick link",
+        "home": "Home",
+        "solutions": "Solutions",
+        "blog": "Blog",
+        "contacts": "Contacts",
+        "ourTeam": "Our Team",
+        "aboutUs": "About Us",
+        "services": "Services",
+        "faq": "FAQ"
+      },
+      "services": {
+        "title":"Service",
+        "pages": "Pages",
+        "elements": "Elements",
+        "pricing": "Pricing",
+        "sitemap": "Site map"
+      },
       "contact": "Contact Info",
       "policy": {
         "rights": "Ensome© 2022 All Rights Reserved",
