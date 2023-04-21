@@ -18,20 +18,20 @@ import {
 } from './styled';
 
 const SectionChooseUs = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper background={Backgrounds.Grey}>
             <ImageContainer>
                 <Image src="/assets/images/choose_us_image.webp" alt="teamImage" />
             </ImageContainer>
             <Content>
-                <Title>{t('ChooseUs.title')}</Title>
+                <Title>{translation('ChooseUs.title')}</Title>
                 <AdvantageList>
                     {ADVANTAGES.map(({ id, title, subtext }) => {
                         return (
                             <AdvantageItem key={id}>
-                                <AdvTitle>{t(title)}</AdvTitle>
-                                <Subtext>{t(subtext)}</Subtext>
+                                <AdvTitle>{translation(title)}</AdvTitle>
+                                <Subtext>{translation(subtext)}</Subtext>
                             </AdvantageItem>
                         );
                     })}

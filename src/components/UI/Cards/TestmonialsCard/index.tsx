@@ -4,16 +4,15 @@ import FlexBox from '../../FlexBox';
 
 import { Icon, Name, Subtext, WhoIs, Wrapper } from './styled';
 
-const TestimonialsCard = ({
-    options,
-}: {
+interface TestimonialsCard {
     options: {
         icon: string;
         name: string;
         testimonial: string;
         whoIs: string;
     };
-}) => {
+}
+const TestimonialsCard = ({ options }: TestimonialsCard) => {
     const { icon, whoIs, name, testimonial } = options;
     return (
         <Wrapper>

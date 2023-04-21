@@ -10,15 +10,15 @@ import { makeSubstringBlue } from '@/utils/makeSubstringBlue';
 import { ButtonDiscover, SubTitle, Title, Wrapper } from './styled';
 
 const SectionNewestPlatform = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
-            <Title>{makeSubstringBlue(t('NewestPlatform.title'), 'newest')}</Title>
+            <Title>{makeSubstringBlue(translation('NewestPlatform.title'), 'newest')}</Title>
             <FlexBox d="flex" direction="column" w={50}>
-                <SubTitle>{t('NewestPlatform.subtext')}</SubTitle>
+                <SubTitle>{translation('NewestPlatform.subtext')}</SubTitle>
                 <Link to={PATHS.Solutions}>
                     <ButtonDiscover>
-                        <Title6>{t('NewestPlatform.button')}</Title6>
+                        <Title6>{translation('NewestPlatform.button')}</Title6>
                     </ButtonDiscover>
                 </Link>
             </FlexBox>

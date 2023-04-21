@@ -4,23 +4,20 @@ import { Link } from 'react-router-dom';
 
 import { Button, Icon, Subtext, Title, Wrapper } from './styled';
 
-const ServicesCard = ({
-    children,
-    src,
-    title,
-    link,
-}: {
+interface ServicesCard {
     children: string;
     src: string;
     title: string;
     link: string;
-}) => {
-    const { t } = useTranslation();
+}
+
+const ServicesCard = ({ children, src, title, link }: ServicesCard) => {
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
             <Icon src={src} />
-            <Title>{t(title)}</Title>
-            <Subtext>{t(children)}</Subtext>
+            <Title>{translation(title)}</Title>
+            <Subtext>{translation(children)}</Subtext>
             <Link to={`${link}`}>
                 <Button>Read more</Button>
             </Link>

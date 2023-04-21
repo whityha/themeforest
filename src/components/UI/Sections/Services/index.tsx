@@ -10,21 +10,26 @@ import FlexBox from '../../FlexBox';
 import { CardsContainer, Content, Subtext, Subtitle, Title, Wrapper } from './styled';
 
 const SectionServices = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
             <Content>
                 <FlexBox alignSelf="start">
                     <Breadcrumbs paths={['Home', 'Services']} />
                 </FlexBox>
-                <Subtitle>{t('Services.subtitle')}</Subtitle>
-                <Title>{t('Services.title')}</Title>
-                <Subtext>{t('Services.subtext')}</Subtext>
+                <Subtitle>{translation('Services.subtitle')}</Subtitle>
+                <Title>{translation('Services.title')}</Title>
+                <Subtext>{translation('Services.subtext')}</Subtext>
                 <CardsContainer>
                     {SERVICES_CARDS_DATA.map(({ icon, subtext, title, link }) => {
                         return (
-                            <ServicesCard link={link} key={icon} title={t(title)} src={icon}>
-                                {t(subtext)}
+                            <ServicesCard
+                                link={link}
+                                key={icon}
+                                title={translation(title)}
+                                src={icon}
+                            >
+                                {translation(subtext)}
                             </ServicesCard>
                         );
                     })}

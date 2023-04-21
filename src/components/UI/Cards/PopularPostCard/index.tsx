@@ -6,17 +6,14 @@ import FlexBox from '../../FlexBox';
 
 import { Date, Image, Title, Wrapper } from './styled';
 
-const PopularPostCard = ({
-    id,
-    title,
-    date,
-    icon,
-}: {
+interface PopularPostCard {
     id: number;
     title: string;
     date: string;
     icon: string;
-}) => {
+}
+
+const PopularPostCard = ({ id, title, date, icon }: PopularPostCard) => {
     return (
         <Wrapper>
             <Image src={icon} />

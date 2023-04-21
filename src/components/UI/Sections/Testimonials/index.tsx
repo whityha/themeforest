@@ -9,11 +9,11 @@ import { TESTIMONIALS } from './config';
 import { Wrapper } from './styled';
 
 const SectionTestimonials = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
             <Slider
-                title={t('Testimonials.title')}
+                title={translation('Testimonials.title')}
                 currentCard={Cards.Testimonials}
                 slides={TESTIMONIALS.map(({ id, name, icon, whoIs, testimonial }) => {
                     return (

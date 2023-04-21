@@ -16,12 +16,12 @@ const NumberBlock = ({
     children: string;
     number: string;
 }) => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper border={border}>
             <FlexBox direction="column" alignItems={center ? 'center' : 'auto'}>
                 <Number>{number}</Number>
-                <Subtitle>{t(children)}</Subtitle>
+                <Subtitle>{translation(children)}</Subtitle>
             </FlexBox>
         </Wrapper>
     );

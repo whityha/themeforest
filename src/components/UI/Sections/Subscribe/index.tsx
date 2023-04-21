@@ -9,13 +9,13 @@ import FlexBox from '../../FlexBox';
 import { Content, DescriptionContainer, Subtext, Title, Wrapper } from './styled';
 
 const SectionSubscribe = ({ background }: { background?: Backgrounds }) => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper background={background}>
             <Content>
                 <DescriptionContainer>
-                    <Title>{t('Subscribe.title')}</Title>
-                    <Subtext>{t('Subscribe.subtext')}</Subtext>
+                    <Title>{translation('Subscribe.title')}</Title>
+                    <Subtext>{translation('Subscribe.subtext')}</Subtext>
                 </DescriptionContainer>
                 <FlexBox w={50} alignItems="center" justifyContent="flex-end">
                     <SubscribeInput />

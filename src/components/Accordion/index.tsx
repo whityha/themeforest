@@ -8,20 +8,19 @@ import FlexBox from '../UI/FlexBox';
 import AccordionItem from './AccordionItem';
 import { Title } from './styled';
 
-const Accordion = <T extends AccordionItemType>({
-    title = 'Services',
-    data,
-}: {
+interface Accordion<T> {
     title?: string;
     data: T[];
-}) => {
-    const { t } = useTranslation();
+}
+
+const Accordion = <T extends AccordionItemType>({ title = 'Services', data }: Accordion<T>) => {
+    const { t: translation } = useTranslation();
     return (
         <FlexBox direction="column">
             <Title>{title}</Title>
             {data.map(({ id, subtext, title }) => (
-                <AccordionItem key={id || title} title={t(title)}>
-                    {typeof subtext === 'string' ? t(subtext) : subtext}
+                <AccordionItem key={id || title} title={translation(title)}>
+                    {typeof subtext === 'string' ? translation(subtext) : subtext}
                 </AccordionItem>
             ))}
         </FlexBox>

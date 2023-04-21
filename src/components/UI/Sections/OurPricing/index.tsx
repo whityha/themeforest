@@ -7,19 +7,19 @@ import { RATES } from './config';
 import { Cards, Title, Wrapper } from './styled';
 
 const SectionOurPricing = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
-            <Title>{t('OurPricing.title')}</Title>
+            <Title>{translation('OurPricing.title')}</Title>
             <Cards>
                 {RATES.map(({ title, price, buttonText, possibilities, possibilitiesCount }) => {
                     return (
                         <PriceCard
                             key={title}
                             options={{
-                                title: t(title),
+                                title: translation(title),
                                 price,
-                                buttonText: t(buttonText),
+                                buttonText: translation(buttonText),
                                 possibilities,
                                 possibilitiesCount,
                             }}

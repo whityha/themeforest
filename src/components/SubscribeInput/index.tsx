@@ -12,7 +12,7 @@ import { onSubmit } from './types';
 import BasicFormSchema from './yupConfig';
 
 const SubscribeInput = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     const [isSending, setIsSending] = useState(false);
     const form = useRef<HTMLFormElement>(null);
 
@@ -43,11 +43,13 @@ const SubscribeInput = () => {
         >
             {({ errors, touched, values: { email } }) => (
                 <FormContainer ref={form} error={touched.email && errors.email}>
-                    <Error error={touched.email && errors.email}>{t('SubscribeInput.error')}</Error>
+                    <Error error={touched.email && errors.email}>
+                        {translation('SubscribeInput.error')}
+                    </Error>
                     <Input
                         name="email"
                         type="text"
-                        placeholder={t('SubscribeInput.placeholder') ?? ''}
+                        placeholder={translation('SubscribeInput.placeholder') ?? ''}
                         disabled={isSending}
                         autoComplete="off"
                     />
@@ -58,7 +60,7 @@ const SubscribeInput = () => {
                         {isSending ? (
                             <Puff height="30" width="30" radius={1} color="#b9b9b9" visible />
                         ) : (
-                            <Title6>{t('SubscribeInput.button')}</Title6>
+                            <Title6>{translation('SubscribeInput.button')}</Title6>
                         )}
                     </SendButton>
                 </FormContainer>

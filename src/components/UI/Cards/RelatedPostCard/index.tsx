@@ -8,19 +8,15 @@ import FlexBox from '../../FlexBox';
 import { SUBTEXT_LIMIT } from './config';
 import { Date, Image, Subtext, Title, Wrapper } from './styled';
 
-const RelatedPostCard = ({
-    id,
-    title,
-    date,
-    icon,
-    subtext,
-}: {
+interface RelatedPostCard {
     id: number;
     title: string;
     date: string;
     icon: string;
     subtext: string;
-}) => {
+}
+
+const RelatedPostCard = ({ id, title, date, icon, subtext }: RelatedPostCard) => {
     return (
         <Link to={`/blog/${id}`}>
             <Wrapper>

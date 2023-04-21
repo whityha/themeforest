@@ -11,10 +11,10 @@ interface VideoButton {
 }
 
 const VideoButton = ({ light, onClick }: VideoButton) => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper onClick={onClick} light={light}>
-            <Title7>{t('header.videoButton')}</Title7>
+            <Title7>{translation('header.videoButton')}</Title7>
         </Wrapper>
     );
 };

@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'styled-components';
 
-export interface sliderOptions {
+export interface SliderOptions {
     visibleSlidersCount?: number;
     slides: Array<React.ReactNode>;
     title: string;

@@ -11,13 +11,13 @@ import { CUSTOMERS, PARTNERS } from './config';
 import { Content, ContentBox, ImageBlock, SubTitle, Title, Wrapper } from './styled';
 
 const SectionOurCustomers = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
-            <Title>{t('OurCustomers.title')}</Title>
+            <Title>{translation('OurCustomers.title')}</Title>
             <Content>
                 <ContentBox>
-                    <SubTitle>{t('OurCustomers.subtext')}</SubTitle>
+                    <SubTitle>{translation('OurCustomers.subtext')}</SubTitle>
                 </ContentBox>
             </Content>
             <FlexBox>
@@ -26,7 +26,7 @@ const SectionOurCustomers = () => {
                 ))}
             </FlexBox>
             <Slider
-                title={t('OurCustomers.whatSay')}
+                title={translation('OurCustomers.whatSay')}
                 visibleSlidersCount={2}
                 currentCard={Cards.Customers}
                 slides={CUSTOMERS.map(({ id, name, icon, whoIs, testimonial }) => {

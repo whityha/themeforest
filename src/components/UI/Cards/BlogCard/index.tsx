@@ -5,9 +5,7 @@ import FlexBox from '../../FlexBox';
 
 import { Button, Date, Image, Subtext, Title } from './styled';
 
-const BlogCard = ({
-    options,
-}: {
+interface BlogCard {
     options: {
         imageLink: string;
         date: string;
@@ -15,7 +13,9 @@ const BlogCard = ({
         title: string;
         id: number;
     };
-}) => {
+}
+
+const BlogCard = ({ options }: BlogCard) => {
     const { date, subtext, title, id, imageLink } = options;
     return (
         <FlexBox direction="column">

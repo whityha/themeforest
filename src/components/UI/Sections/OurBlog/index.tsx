@@ -9,11 +9,11 @@ import { Cards } from '@/types';
 import { Wrapper } from './styled';
 
 const SectionOurBlog = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
             <Slider
-                title={t('OurBlog.title')}
+                title={translation('OurBlog.title')}
                 currentCard={Cards.Articles}
                 slides={BLOG_NEWS.map(({ id, title, date, subtext, imageLink }) => {
                     return (

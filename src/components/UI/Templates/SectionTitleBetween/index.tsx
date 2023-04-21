@@ -7,15 +7,13 @@ import FlexBox from '../../FlexBox';
 
 import { Content, Subtext, Title, Wrapper } from './styled';
 
-const SectionTitleBetween = ({
-    background,
-    title,
-    subtext,
-}: {
+interface SectionTitleBetween {
     background: Backgrounds;
     title: string;
     subtext: string;
-}) => {
+}
+
+const SectionTitleBetween = ({ background, title, subtext }: SectionTitleBetween) => {
     return (
         <Wrapper background={background}>
             <Content>

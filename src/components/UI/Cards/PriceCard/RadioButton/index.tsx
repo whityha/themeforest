@@ -1,15 +1,13 @@
 import React from 'react';
 import uuid4 from 'uuid4';
 
-const RadioButton = ({
-    name,
-    children,
-    checked,
-}: {
+interface RadioButton {
     name: string;
     children: React.ReactNode;
     checked?: boolean;
-}) => {
+}
+
+const RadioButton = ({ name, children, checked }: RadioButton) => {
     const id = uuid4();
     return (
         <>

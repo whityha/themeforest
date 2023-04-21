@@ -10,19 +10,19 @@ import { Title7 } from '@/theme/UI/Titles';
 import { ButtonMore, Content, Image, SubTitle, Title, Wrapper } from './styled';
 
 const SectionEnsome = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
             <Content>
                 <Title>
-                    {t('Ensome.title')} <BlueText>Ensome</BlueText>
+                    {translation('Ensome.title')} <BlueText>Ensome</BlueText>
                 </Title>
                 <FlexBox d="flex" w={33}>
-                    <SubTitle>{t('Ensome.subtext')}</SubTitle>
+                    <SubTitle>{translation('Ensome.subtext')}</SubTitle>
                 </FlexBox>
                 <Link to={PATHS.Services}>
                     <ButtonMore>
-                        <Title7>{t('Ensome.button')}</Title7>
+                        <Title7>{translation('Ensome.button')}</Title7>
                     </ButtonMore>
                 </Link>
             </Content>

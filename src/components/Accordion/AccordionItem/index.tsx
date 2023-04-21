@@ -4,7 +4,12 @@ import useAccordion from '@/hooks/useAccordion';
 
 import { Details, Main, Wrapper } from './styled';
 
-const AccordionItem = ({ title, children }: { title: string; children: React.ReactNode }) => {
+interface AccordionItem {
+    title: string;
+    children: React.ReactNode;
+}
+
+const AccordionItem = ({ title, children }: AccordionItem) => {
     const { open, handleAccordion } = useAccordion();
     return (
         <Wrapper>

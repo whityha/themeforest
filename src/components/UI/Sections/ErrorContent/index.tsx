@@ -6,7 +6,7 @@ import FlexBox from '@/components/UI/FlexBox';
 import { SubTitle, Title, Wrapper } from './styled';
 
 const ErrorContent = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
             <Title>404 ERROR</Title>

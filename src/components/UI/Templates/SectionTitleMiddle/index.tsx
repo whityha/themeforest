@@ -5,7 +5,11 @@ import { Backgrounds } from '@/types';
 
 import { Title, Wrapper } from './styled';
 
-const SectionTitleMiddle = ({ title, path }: { path?: string[]; title: string }) => {
+interface SectionTitleMiddle {
+    path?: string[];
+    title: string;
+}
+const SectionTitleMiddle = ({ title, path }: SectionTitleMiddle) => {
     return (
         <Wrapper background={Backgrounds.Grey}>
             <Title>{title}</Title>

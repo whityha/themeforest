@@ -4,15 +4,13 @@ import { Backgrounds } from '@/types';
 
 import { CurrentPageName, HistoryPageName, Wrapper } from './styled';
 
-const Breadcrumbs = ({
-    center,
-    paths,
-    background,
-}: {
+interface Breadcrumbs {
     paths: Array<string>;
     center?: boolean;
     background?: Backgrounds;
-}) => {
+}
+
+const Breadcrumbs = ({ center, paths, background }: Breadcrumbs) => {
     return (
         <Wrapper center={center}>
             {paths.map((path, i, array) => {
@@ -22,7 +20,7 @@ const Breadcrumbs = ({
                             {path}
                         </CurrentPageName>
                     );
-                return <HistoryPageName key={path}>{path} |&nbsp;</HistoryPageName>;
+                return <HistoryPageName key={path}>{path}</HistoryPageName>;
             })}
         </Wrapper>
     );

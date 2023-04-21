@@ -9,16 +9,16 @@ import Accordion from './Accordion';
 import { Content, Subtext, Subtitle, Title, Wrapper } from './styled';
 
 const SectionFAQTitle = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
             <Content>
                 <FlexBox alignSelf="start">
-                    <Breadcrumbs paths={['Home', t('FAQ.subtitle')]} />
+                    <Breadcrumbs paths={['Home', translation('FAQ.subtitle')]} />
                 </FlexBox>
-                <Subtitle>{t('FAQ.subtitle')}</Subtitle>
-                <Title>{t('FAQ.title')}</Title>
-                <Subtext>{t('FAQ.subtext')}</Subtext>
+                <Subtitle>{translation('FAQ.subtitle')}</Subtitle>
+                <Title>{translation('FAQ.title')}</Title>
+                <Subtext>{translation('FAQ.subtext')}</Subtext>
                 <Accordion />
             </Content>
         </Wrapper>

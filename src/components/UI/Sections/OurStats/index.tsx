@@ -10,10 +10,10 @@ import { PARTNERS } from './config';
 import { Content, ContentBox, ImageBlock, SubTitle, Title, Wrapper } from './styled';
 
 const SectionOurStats = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
-            <Title>{t('OurStats.title')}</Title>
+            <Title>{translation('OurStats.title')}</Title>
             <Content>
                 <ContentBox>
                     {STATS_NUMBER_HOME.map(({ id, number, title }) => (
@@ -23,7 +23,7 @@ const SectionOurStats = () => {
                     ))}
                 </ContentBox>
                 <ContentBox>
-                    <SubTitle>{t('OurStats.subtext')}</SubTitle>
+                    <SubTitle>{translation('OurStats.subtext')}</SubTitle>
                 </ContentBox>
             </Content>
             <FlexBox>

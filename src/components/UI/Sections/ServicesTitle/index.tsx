@@ -8,8 +8,14 @@ import SectionTitleBetween from '../../Templates/SectionTitleBetween';
 
 const SectionServicesTitle = ({ background, id }: { id: string; background: Backgrounds }) => {
     const { title, subtext } = SERVICES_PAGE_DATA[id];
-    const { t } = useTranslation();
-    return <SectionTitleBetween background={background} subtext={t(subtext)} title={t(title)} />;
+    const { t: translation } = useTranslation();
+    return (
+        <SectionTitleBetween
+            background={background}
+            subtext={translation(subtext)}
+            title={translation(title)}
+        />
+    );
 };
 
 export default SectionServicesTitle;

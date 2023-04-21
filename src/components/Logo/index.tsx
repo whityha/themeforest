@@ -2,7 +2,11 @@ import React from 'react';
 
 import { Image } from './styled';
 
-const Logo = ({ color }: { color: 'white' | 'blue' }) => {
+interface Logo {
+    color: 'white' | 'blue';
+}
+
+const Logo = ({ color }: Logo) => {
     return <Image src={`/assets/logo/logo_${color}.png`} alt="logoImage" />;
 };
 export default Logo;

@@ -6,12 +6,12 @@ import { Backgrounds } from '@/types';
 import SectionTitleBetween from '../../Templates/SectionTitleBetween';
 
 const SectionTitleTeam = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <SectionTitleBetween
             background={Backgrounds.DarkBlue}
             title="Our team"
-            subtext={t('OurTeam.subtext')}
+            subtext={translation('OurTeam.subtext')}
         />
     );
 };

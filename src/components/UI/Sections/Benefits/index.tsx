@@ -9,13 +9,13 @@ import { BENEFITS_CARDS } from './config';
 import { ContainerCards, Content, SubTitle, Title, Wrapper } from './styled';
 
 const SectionBenefits = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper background={Backgrounds.Grey}>
             <Content>
                 <FlexBox w={50} direction="column">
-                    <Title>{t('Benefits.title')}</Title>
-                    <SubTitle>{t('Benefits.subtext')}</SubTitle>
+                    <Title>{translation('Benefits.title')}</Title>
+                    <SubTitle>{translation('Benefits.subtext')}</SubTitle>
                 </FlexBox>
                 <ContainerCards>
                     {BENEFITS_CARDS.map(({ icon, subtext, title }) => {

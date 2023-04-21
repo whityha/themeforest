@@ -19,7 +19,7 @@ import {
 
 const SectionDescription = ({ id }: { id?: string }) => {
     const [currentThesis, setCurrentThesis] = useState<number>(0);
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     const refArray = useRef<HTMLDivElement[]>([]);
 
     const solution = SOLUTIONS_PAGE_DATA[id!];
@@ -53,7 +53,7 @@ const SectionDescription = ({ id }: { id?: string }) => {
                     {solution.thesis.map(({ id, title }, i) => {
                         return (
                             <ThesisItem key={id} active={currentThesis === i}>
-                                <Title7>{t(title)}</Title7>
+                                <Title7>{translation(title)}</Title7>
                             </ThesisItem>
                         );
                     })}
@@ -65,9 +65,9 @@ const SectionDescription = ({ id }: { id?: string }) => {
                                 ref={(ele: HTMLDivElement) => addToRefs(ele, index)}
                                 key={id}
                             >
-                                <Title>{t(title)}</Title>
+                                <Title>{translation(title)}</Title>
                                 {image && <Image src={image} alt="imageSolution" />}
-                                <Subtext>{t(subtext)}</Subtext>
+                                <Subtext>{translation(subtext)}</Subtext>
                             </Container>
                         );
                     })}

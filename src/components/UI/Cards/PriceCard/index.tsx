@@ -31,7 +31,7 @@ export interface PriceCard {
 const PriceCard = ({ options }: PriceCard) => {
     const [isOpen, setIsOpen] = useState(false);
     const { buttonText, title, price, possibilities, possibilitiesCount } = options;
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
             {isOpen && (
@@ -63,8 +63,8 @@ const PriceCard = ({ options }: PriceCard) => {
                     .fill(1)
                     .map((_, i) => {
                         return (
-                            <Possibility key={t(`${possibilities}.${i}`)}>
-                                <Parag3>{t(`${possibilities}.${i}`)}</Parag3>
+                            <Possibility key={translation(`${possibilities}.${i}`)}>
+                                <Parag3>{translation(`${possibilities}.${i}`)}</Parag3>
                             </Possibility>
                         );
                     })}

@@ -6,8 +6,8 @@ import { BLOG_NEWS } from '@/constants/Mocks/Blogs';
 
 const SectionSingleBlogTitle = ({ id }: { id: string }) => {
     const { title } = BLOG_NEWS[Number(id)];
-    const { t } = useTranslation();
-    return <SectionTitleMiddle title={t(title)} />;
+    const { t: translation } = useTranslation();
+    return <SectionTitleMiddle title={translation(title)} />;
 };
 
 export default SectionSingleBlogTitle;

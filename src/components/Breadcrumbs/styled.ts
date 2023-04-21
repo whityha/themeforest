@@ -24,6 +24,15 @@ export const HistoryPageName = styled.li`
     color: ${({ theme }) => theme.colors.grey};
     font-size: ${({ theme }) => theme.fontSize.s7}px;
     line-height: ${({ theme }) => theme.lineHeight.large};
+    padding-right: 10px;
+    &:after {
+        content: '';
+        display: inline-block;
+        width: 1px;
+        margin-left: 10px;
+        height: ${({ theme }) => theme.fontSize.s8}px;
+        background: ${({ theme }) => theme.colors.grey};
+    }
     &:first-child {
         padding-left: 0px;
     }

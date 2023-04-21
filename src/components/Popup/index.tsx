@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 import { Content, Wrapper } from './styled';
@@ -20,10 +21,11 @@ const Popup = ({ children, close }: Popup) => {
         if (wrapperRef.current) disableBodyScroll(wrapperRef.current);
     }, []);
 
-    return (
+    return createPortal(
         <Wrapper onClick={handleClose} ref={wrapperRef}>
             <Content>{children}</Content>
-        </Wrapper>
+        </Wrapper>,
+        document.querySelector('body') as HTMLBodyElement
     );
 };
 

@@ -16,7 +16,7 @@ import { onSubmit } from './types';
 import BasicFormSchema from './yupConfig';
 
 const ContactForm = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     const [isSending, setIsSending] = useState(false);
     const form = useRef<HTMLFormElement>(null);
 
@@ -71,7 +71,7 @@ const ContactForm = () => {
                             {isSending ? (
                                 <Puff height="30" width="30" radius={1} color="#b9b9b9" visible />
                             ) : (
-                                <Title6>{t('SubscribeInput.button')}</Title6>
+                                <Title6>{translation('SubscribeInput.button')}</Title6>
                             )}
                         </SubmitButton>
                     </FormContainer>

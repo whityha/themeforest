@@ -11,13 +11,13 @@ interface Dropdown {
 }
 
 const Dropdown = ({ data }: Dropdown) => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper>
             {data.map(({ link, id, title }) => {
                 return (
                     <ListItem key={id}>
-                        <Link to={link}>{t(title)}</Link>
+                        <Link to={link}>{translation(title)}</Link>
                     </ListItem>
                 );
             })}

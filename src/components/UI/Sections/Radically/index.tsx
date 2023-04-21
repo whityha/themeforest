@@ -9,18 +9,18 @@ import { Backgrounds } from '@/types';
 import { ButtonLearn, Content, Image, ImageContainer, SubTitle, Title, Wrapper } from './styled';
 
 const SectionRadically = () => {
-    const { t } = useTranslation();
+    const { t: translation } = useTranslation();
     return (
         <Wrapper background={Backgrounds.Grey}>
             <ImageContainer>
                 <Image src="/assets/images/radically_image.webp" alt="teamImage" />
             </ImageContainer>
             <Content>
-                <Title>{t('Radically.title')}</Title>
-                <SubTitle>{t('Radically.subtext')}</SubTitle>
+                <Title>{translation('Radically.title')}</Title>
+                <SubTitle>{translation('Radically.subtext')}</SubTitle>
                 <Link to={PATHS.Solutions}>
                     <ButtonLearn>
-                        <Title6>{t('Radically.button')}</Title6>
+                        <Title6>{translation('Radically.button')}</Title6>
                     </ButtonLearn>
                 </Link>
             </Content>
