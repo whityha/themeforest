@@ -28,6 +28,15 @@ export const Input = styled(Field)`
     &:disabled {
         color: ${({ theme }) => theme.colors.grey};
     }
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        margin-right: 0;
+        background: ${({ theme }) => theme.colors.darkBlue};
+        border: 1px solid ${({ theme }) => theme.colors.helperBlue2};
+        color: ${({ theme }) => theme.colors.helperBlue2};
+        &::placeholder {
+            color: ${({ theme }) => theme.colors.helperBlue2};
+        }
+    }
 `;
 
 export const SendButton = styled.button`
@@ -47,10 +56,20 @@ export const SendButton = styled.button`
     }
     &:not([disabled]) {
         width: ${({ theme }) => theme.buttonsWidth.medium + 30}px;
+        @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+            width: 100%;
+        }
     }
     &:hover:not([disabled]) {
         background: ${({ theme }) => theme.colors.green};
         color: ${({ theme }) => theme.colors.white};
+    }
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        bottom: -80px;
+        padding: ${({ theme }) => `${theme.padding.p1 + 5}px 0px`};
     }
 `;
 

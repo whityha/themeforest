@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
 export const Image = styled.img`
     max-width: 45%;
     margin-right: ${({ theme }) => theme.margin.m2}px;
+    object-fit: contain;
 `;
 
 export const Date = styled(Parag3)`

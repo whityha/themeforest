@@ -1,22 +1,36 @@
 import styled from 'styled-components';
 
-import { getWrapperWidth } from '@/theme/UI/Common';
 import { Backgrounds } from '@/types';
+
+import { WrapperTemplate } from '../UI/Templates';
 
 interface HeaderProps {
     background: Backgrounds;
 }
 
-export const OuterWrapper = styled.header<HeaderProps>`
+export const Wrapper = styled.header<HeaderProps>`
     background: ${({ theme, background }) => theme.colors[background]};
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        background: ${({ theme }) => theme.colors.white};
+    }
 `;
 
-export const InnerWrapper = styled.div`
+export const InnerWrapper = styled(WrapperTemplate)`
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: ${({ theme }) => getWrapperWidth(theme)}px;
-    margin: 0 auto;
-    padding-top: ${({ theme }) => theme.padding.p4}px;
-    padding-bottom: ${({ theme }) => theme.padding.p4}px;
+    padding: ${({ theme }) => `${theme.padding.p4}px 0px`};
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        height: 70px;
+        padding: ${({ theme }) => `${theme.padding.p2}px 0px`};
+        z-index: 5;
+    }
+`;
+
+export const Burger = styled.img`
+    display: none;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        display: inline;
+    }
 `;

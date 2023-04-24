@@ -11,6 +11,9 @@ export const Wrapper = styled.footer`
     flex-direction: column;
     padding-top: ${({ theme: { padding } }) => `${padding.p5}px`};
     background: ${({ theme }) => theme.colors.darkBlue};
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        display: none;
+    }
 `;
 
 export const Content = styled.div`

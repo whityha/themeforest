@@ -9,6 +9,12 @@ export const Wrapper = styled.div`
     background: ${({ theme }) => theme.colors.white};
     border-radius: ${({ theme }) => theme.borderRadius.small}px;
     box-shadow: ${({ theme }) => theme.shadows.shadowCard2};
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        min-width: calc(80% - ${({ theme }) => theme.gap.g3 / 2}px);
+        flex-basis: 100%;
+        flex-grow: 1;
+        box-shadow: ${({ theme }) => theme.shadows.shadowCard3};
+    }
 `;
 
 export const Icon = styled.img`

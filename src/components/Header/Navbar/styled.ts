@@ -25,8 +25,6 @@ export const ListItem = styled.li<ListItem>`
         width: 100%;
         height: 1px;
         opacity: 0;
-        /* background: ${({ theme, light }) =>
-            light ? theme.colors.darkBlue : theme.colors.background}; */
         background: ${({ theme, light }) => (light ? theme.colors.darkBlue : theme.colors.white)};
         transition: ${({ theme }) => theme.transition.fast}s;
         transform: translateY(-100%);
@@ -34,5 +32,8 @@ export const ListItem = styled.li<ListItem>`
     &:hover:after {
         opacity: 1;
         transform: translateY(0);
+    }
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        display: none;
     }
 `;

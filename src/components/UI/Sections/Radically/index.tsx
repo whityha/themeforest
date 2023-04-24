@@ -12,6 +12,7 @@ const SectionRadically = () => {
     const { t: translation } = useTranslation();
     return (
         <Wrapper background={Backgrounds.Grey}>
+            <Title>{translation('Radically.title')}</Title>
             <ImageContainer>
                 <Image src="/assets/images/radically_image.webp" alt="teamImage" />
             </ImageContainer>

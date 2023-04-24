@@ -5,17 +5,14 @@ import FlexBox from '../../FlexBox';
 
 import { Number, Subtitle, Wrapper } from './styled';
 
-const NumberBlock = ({
-    children,
-    number,
-    center,
-    border = false,
-}: {
+interface NumberBlock {
     center?: boolean;
     border?: boolean;
     children: string;
     number: string;
-}) => {
+}
+
+const NumberBlock = ({ children, number, center, border = false }: NumberBlock) => {
     const { t: translation } = useTranslation();
     return (
         <Wrapper border={border}>

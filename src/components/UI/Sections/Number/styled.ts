@@ -16,8 +16,16 @@ export const Number = styled.span`
     color: ${({ theme }) => theme.colors.blue};
     font-family: ${({ theme }) => theme.fontFamily.secondary};
     font-weight: 800;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        font-size: ${({ theme }) => theme.fontSize.s3}px;
+        align-self: center;
+    }
 `;
 
 export const Subtitle = styled(Parag2)`
     color: ${({ theme }) => theme.colors.grey};
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        text-align: center;
+        line-height: ${({ theme }) => theme.lineHeight.large};
+    }
 `;

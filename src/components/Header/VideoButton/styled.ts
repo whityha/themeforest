@@ -26,4 +26,7 @@ export const Wrapper = styled(Button)<ButtonProps>`
         background: url('/assets/icons/play.svg') no-repeat center left 5%,
             ${({ theme }) => theme.colors.blue};
     }
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        display: none;
+    }
 `;

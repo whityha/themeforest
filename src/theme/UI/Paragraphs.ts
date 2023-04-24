@@ -9,6 +9,9 @@ export const Parag1 = styled.p`
     font-size: ${({ theme }) => theme.fontSize.s5}px;
     ${({ theme }) => generalStyle(theme)};
     font-weight: 400;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        font-size: ${({ theme }) => theme.fontSize.s7}px;
+    }
 `;
 
 export const Parag2 = styled.p`
@@ -27,6 +30,9 @@ export const Parag3 = styled.p`
     font-size: ${({ theme }) => theme.fontSize.s7}px;
     ${({ theme }) => generalStyle(theme)};
     font-weight: 400;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        font-size: ${({ theme }) => theme.fontSize.s7}px;
+    }
 `;
 
 export const Parag3Bold = styled.p`

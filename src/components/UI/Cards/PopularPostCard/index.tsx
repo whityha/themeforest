@@ -17,7 +17,7 @@ const PopularPostCard = ({ id, title, date, icon }: PopularPostCard) => {
     return (
         <Wrapper>
             <Image src={icon} />
-            <FlexBox direction="column" justifyContent="space-between">
+            <FlexBox direction="column" justifyContent="space-between" rg={5}>
                 <Date>{date}</Date>
                 <Title>{title}</Title>
                 <ButtonReadMore>

@@ -16,6 +16,10 @@ export const theme = {
         white: '#ffffff',
         green: '#35b969',
     },
+    breakpoints: {
+        small: 420,
+        large: 1110,
+    },
     shadows: {
         shadowButton: '0px 12px 30px 0px #185cff2e',
         shadowCard1: '0px 2px 20px 17px #185CFF0A',
@@ -76,6 +80,7 @@ export const theme = {
         round: 50,
     },
     wrapperWidth: {
+        small: 320,
         large: 1110,
     },
     buttonsWidth: {
@@ -85,6 +90,11 @@ export const theme = {
     },
     cardsWidth: {
         [Cards.Testimonials]: 350,
+        [Cards.Customers]: 540,
+        [Cards.Articles]: 350,
+    },
+    cardsWidthMobile: {
+        [Cards.Testimonials]: 280,
         [Cards.Customers]: 540,
         [Cards.Articles]: 350,
     },

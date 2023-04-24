@@ -5,12 +5,21 @@ import { Backgrounds } from '@/types';
 
 import Popup from '../Popup';
 
+import { BURGER_IMAGE, X_IMAGE } from './config';
+import MobileHeader from './MobileHeader';
 import Navbar from './Navbar';
-import { InnerWrapper, OuterWrapper } from './styled';
+import { Burger, InnerWrapper, Wrapper } from './styled';
 import VideoButton from './VideoButton';
 
 const Header = ({ background }: { background: Backgrounds }) => {
     const [isOpenPopup, setIsOpenPopup] = useState(false);
+    const [isOpenBurger, setIsOpenBurger] = useState(false);
+    const handlePopup = () => {
+        setIsOpenPopup(true);
+    };
+    const handleBurger = () => {
+        setIsOpenBurger((prev) => !prev);
+    };
     return (
         <>
             {isOpenPopup && (
@@ -26,16 +35,21 @@ const Header = ({ background }: { background: Backgrounds }) => {
                     />
                 </Popup>
             )}
-            <OuterWrapper background={background}>
+            <Wrapper background={background}>
                 <InnerWrapper>
                     <Logo color={background === 'darkBlue' ? 'white' : 'blue'} />
                     <Navbar light={background !== 'darkBlue'} />
-                    <VideoButton
-                        onClick={() => setIsOpenPopup(true)}
-                        light={background === 'darkBlue'}
+                    <VideoButton onClick={handlePopup} light={background === 'darkBlue'} />
+                    <Burger
+                        onClick={handleBurger}
+                        src={isOpenBurger ? X_IMAGE : BURGER_IMAGE}
+                        alt="burger"
                     />
                 </InnerWrapper>
-            </OuterWrapper>
+                {isOpenBurger && (
+                    <MobileHeader background={background === 'darkBlue' ? 'darkBlue' : 'white'} />
+                )}
+            </Wrapper>
         </>
     );
 };
