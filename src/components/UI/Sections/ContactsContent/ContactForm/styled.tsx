@@ -12,6 +12,9 @@ export const FormContainer = styled(Form)`
     flex-wrap: wrap;
     column-gap: ${({ theme }) => theme.gap.g3}px;
     margin-top: ${({ theme }) => theme.margin.m2}px;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        margin-top: ${({ theme }) => theme.margin.m4}px;
+    }
 `;
 
 export const Input = styled(Field)`
@@ -57,6 +60,9 @@ export const InputContainer = styled.div<InputContainer>`
     min-width: ${({ full }) => (full ? 100 : 40)}%;
     flex-basis: 0;
     flex-grow: 1;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        min-width: 100%;
+    }
 `;
 
 export const SubmitButton = styled(Button)`
@@ -64,6 +70,10 @@ export const SubmitButton = styled(Button)`
     line-height: ${({ theme }) => theme.lineHeight.large};
     &:disabled {
         cursor: auto;
+    }
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        width: 100%;
+        font-size: ${({ theme }) => theme.fontSize.s6}px !important;
     }
 `;
 
