@@ -9,12 +9,19 @@ import { SectionTemplate } from '../../Templates';
 export const Wrapper = styled(SectionTemplate)`
     display: flex;
     column-gap: ${({ theme }) => theme.gap.g3}px;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        flex-direction: column;
+        background: ${({ theme }) => theme.colors.white};
+    }
 `;
 
 export const ImageContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: calc(50% - ${({ theme }) => theme.gap.g3 / 2}px);
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        width: 100%;
+    }
 `;
 
 export const Content = styled.div`
@@ -23,6 +30,12 @@ export const Content = styled.div`
     flex-direction: column;
     row-gap: ${({ theme }) => theme.gap.g3}px;
     align-self: center;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        max-width: auto;
+        width: 91%;
+        margin: 0 auto;
+        margin: ${({ theme }) => `${theme.margin.m5}px 0px`};
+    }
 `;
 
 export const Title = styled(Title2)`
@@ -51,7 +64,11 @@ export const AdvantageItem = styled.li`
 `;
 
 export const AdvTitle = styled(Title6)`
+    color: ${({ theme }) => theme.colors.black};
     padding-left: ${({ theme }) => theme.padding.p3}px;
     background: url('/assets/icons/v_blue.svg') no-repeat center left;
     margin-bottom: ${({ theme }) => theme.margin.m1}px;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        font-size: ${({ theme }) => theme.fontSize.s5}px;
+    }
 `;
