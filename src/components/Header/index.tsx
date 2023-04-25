@@ -8,7 +8,7 @@ import Popup from '../Popup';
 import { BURGER_IMAGE, X_IMAGE } from './config';
 import MobileHeader from './MobileHeader';
 import Navbar from './Navbar';
-import { Burger, InnerWrapper, Wrapper } from './styled';
+import { Burger, InnerWrapper, Wrapper, WrapperMobile } from './styled';
 import VideoButton from './VideoButton';
 
 const Header = ({ background }: { background: Backgrounds }) => {
@@ -40,6 +40,11 @@ const Header = ({ background }: { background: Backgrounds }) => {
                     <Logo color={background === 'darkBlue' ? 'white' : 'blue'} />
                     <Navbar light={background !== 'darkBlue'} />
                     <VideoButton onClick={handlePopup} light={background === 'darkBlue'} />
+                </InnerWrapper>
+            </Wrapper>
+            <WrapperMobile>
+                <InnerWrapper>
+                    <Logo color="blue" />
                     <Burger
                         onClick={handleBurger}
                         src={isOpenBurger ? X_IMAGE : BURGER_IMAGE}
@@ -49,7 +54,7 @@ const Header = ({ background }: { background: Backgrounds }) => {
                 {isOpenBurger && (
                     <MobileHeader background={background === 'darkBlue' ? 'darkBlue' : 'white'} />
                 )}
-            </Wrapper>
+            </WrapperMobile>
         </>
     );
 };

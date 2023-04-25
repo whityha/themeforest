@@ -6,7 +6,7 @@ export const Wrapper = styled.div<{ background: 'white' | 'darkBlue' }>`
     width: 100%;
     position: absolute;
     min-height: calc(100vh - 70px);
-    background: ${({ theme, background }) => theme.colors[background]};
+    background: ${({ theme }) => theme.colors.white};
     z-index: 2;
     @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
         display: flex;

@@ -11,11 +11,12 @@ interface SectionTitleBetween {
     background: Backgrounds;
     title: string;
     subtext: string;
+    screen?: 'desktop' | 'mobile';
 }
 
-const SectionTitleBetween = ({ background, title, subtext }: SectionTitleBetween) => {
+const SectionTitleBetween = ({ screen, background, title, subtext }: SectionTitleBetween) => {
     return (
-        <Wrapper background={background}>
+        <Wrapper screen={screen} background={background}>
             <Content>
                 <Breadcrumbs background={background} paths={['Home', title]} />
                 <FlexBox justifyContent="space-between" alignItems="center">

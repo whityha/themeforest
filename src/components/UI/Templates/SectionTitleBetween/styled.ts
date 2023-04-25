@@ -20,11 +20,15 @@ export const Subtext = styled(Parag3)`
     width: 33%;
 `;
 
-export const Wrapper = styled(SectionTemplate)`
+export const Wrapper = styled(SectionTemplate)<{ screen?: 'mobile' | 'desktop' }>`
+    display: ${({ screen }) => (screen === 'mobile' ? 'none' : 'block')};
     padding: ${({ theme }) => `${theme.padding.p4}px 0px ${theme.padding.p9}px 0px`};
     color: ${({ theme, background }) =>
         background === 'darkBlue' ? theme.colors.white : theme.colors.black};
     & ${Subtext} {
         color: ${({ theme }) => theme.colors.background};
+    }
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        display: ${({ screen }) => (screen === 'desktop' ? 'none' : 'block')};
     }
 `;

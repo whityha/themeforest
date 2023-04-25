@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
-import { Button } from '@/theme/UI/Button';
-
 import { SectionTemplate, WrapperTemplate } from '../../Templates';
 
 export const Wrapper = styled(SectionTemplate)`
     padding: ${({ theme }) => `${theme.padding.p12}px 0px`};
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        padding: 0;
+    }
 `;
 
 export const Content = styled(WrapperTemplate)`
@@ -25,6 +26,10 @@ export const CardContainer = styled.div`
     flex-grow: 1;
     flex-basis: 30%;
     max-width: 30%;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
 `;
 
 export const ButtonMoreContainer = styled.div<{ disabled: boolean }>`
@@ -48,10 +53,18 @@ export const ButtonMoreContainer = styled.div<{ disabled: boolean }>`
         cursor: auto;
         background: ${({ theme }) => theme.colors.lightBlue};
     }
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        width: 100%;
+        margin-bottom: ${({ theme }) => theme.margin.m5}px;
+        box-shadow: ${({ theme }) => theme.shadows.shadowButton};
+    }
 `;
 
 export const ButtonMore = styled.button`
     cursor: pointer;
     height: 20px;
     color: ${({ theme }) => theme.colors.white};
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        font-size: ${({ theme }) => theme.fontSize.s6}px;
+    }
 `;

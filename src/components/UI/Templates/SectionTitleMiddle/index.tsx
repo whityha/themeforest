@@ -6,12 +6,13 @@ import { Backgrounds } from '@/types';
 import { Title, Wrapper } from './styled';
 
 interface SectionTitleMiddle {
-    path?: string[];
     title: string;
+    path?: string[];
+    screen?: 'desktop' | 'mobile';
 }
-const SectionTitleMiddle = ({ title, path }: SectionTitleMiddle) => {
+const SectionTitleMiddle = ({ title, path, screen }: SectionTitleMiddle) => {
     return (
-        <Wrapper background={Backgrounds.Grey}>
+        <Wrapper screen={screen} background={Backgrounds.Grey}>
             <Title>{title}</Title>
             {path ? (
                 <Breadcrumbs paths={[...path, `${title}`]} />

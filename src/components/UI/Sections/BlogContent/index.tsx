@@ -31,9 +31,9 @@ const SectionBlogContent = () => {
             <Content>
                 <ArticlesContainer>
                     {BLOG_NEWS.slice(0, articlesCount).map(
-                        ({ id, date, title, subtext, imageLink }) => (
+                        ({ id, date, title, subtext, imageLink, tags }) => (
                             <CardContainer key={id}>
-                                <BlogCard options={{ id, date, title, imageLink, subtext }} />
+                                <BlogCard options={{ tags, id, date, title, imageLink, subtext }} />
                             </CardContainer>
                         )
                     )}
@@ -46,9 +46,7 @@ const SectionBlogContent = () => {
                         {isLoading ? (
                             <Puff color="#ffffff" height="20px" />
                         ) : (
-                            <ButtonMore disabled={isLoading}>
-                                <Title7>More articles</Title7>
-                            </ButtonMore>
+                            <ButtonMore disabled={isLoading}>More articles</ButtonMore>
                         )}
                     </ButtonMoreContainer>
                 )}

@@ -11,7 +11,15 @@ interface HeaderProps {
 export const Wrapper = styled.header<HeaderProps>`
     background: ${({ theme, background }) => theme.colors[background]};
     @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
-        background: ${({ theme }) => theme.colors.white};
+        display: none;
+    }
+`;
+
+export const WrapperMobile = styled.header`
+    display: none;
+    background: ${({ theme }) => theme.colors.white};
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        display: block;
     }
 `;
 
