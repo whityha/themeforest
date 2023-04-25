@@ -10,6 +10,7 @@ export const WrapperTemplate = styled.div`
     width: ${({ theme }) => theme.wrapperWidth.large}px;
     margin: 0 auto;
     @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
-        width: ${({ theme }) => theme.wrapperWidth.small}px;
+        width: 91%;
+        margin: 0 auto;
     }
 `;

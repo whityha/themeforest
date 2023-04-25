@@ -30,6 +30,9 @@ export const Title4 = styled.h4`
     ${({ theme }) => generalStyle(theme)};
     font-size: ${({ theme }) => theme.fontSize.s4}px;
     font-weight: 700;
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        font-size: ${({ theme }) => theme.fontSize.s6}px;
+    }
 `;
 export const Title5 = styled.h5`
     ${({ theme }) => generalStyle(theme)};
