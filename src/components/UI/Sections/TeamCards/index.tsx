@@ -4,7 +4,7 @@ import TeamCard from '@/components/UI/Cards/TeamCard';
 import { TEAMMATES } from '@/constants/Mocks/OurTeam';
 
 import { ADD_CARDS_COUNT, START_CARDS_COUNT } from './config';
-import { Content, Wrapper } from './styled';
+import { CardContainer, Content, Wrapper } from './styled';
 
 const SectionTeamCards = () => {
     const [cardsCount, setCardsCount] = useState<number>(START_CARDS_COUNT);
@@ -30,7 +30,9 @@ const SectionTeamCards = () => {
         <Wrapper>
             <Content ref={containerRef}>
                 {TEAMMATES.slice(0, cardsCount).map((teammate) => (
-                    <TeamCard key={teammate.id} options={teammate} />
+                    <CardContainer key={teammate.id}>
+                        <TeamCard options={teammate} />
+                    </CardContainer>
                 ))}
             </Content>
         </Wrapper>

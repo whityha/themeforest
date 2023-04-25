@@ -6,10 +6,15 @@ import { Backgrounds } from '@/types';
 
 import { Content, DescriptionContainer, InputContainer, Subtext, Title, Wrapper } from './styled';
 
-const SectionSubscribe = ({ background }: { background?: Backgrounds }) => {
+interface SectionSubscribe {
+    screen?: 'mobile' | 'desktop';
+    background?: Backgrounds;
+}
+
+const SectionSubscribe = ({ background, screen }: SectionSubscribe) => {
     const { t: translation } = useTranslation();
     return (
-        <Wrapper background={background}>
+        <Wrapper screen={screen} background={background}>
             <Content>
                 <DescriptionContainer>
                     <Title>{translation('Subscribe.title')}</Title>

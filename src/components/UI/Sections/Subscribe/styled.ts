@@ -4,12 +4,13 @@ import { SectionTemplate, WrapperTemplate } from '@/components/UI/Templates';
 import { Parag1 } from '@/theme/UI/Paragraphs';
 import { Title2 } from '@/theme/UI/Titles';
 
-export const Wrapper = styled(SectionTemplate)`
-    display: flex;
+export const Wrapper = styled(SectionTemplate)<{ screen?: 'mobile' | 'desktop' }>`
+    display: ${({ screen }) => (screen === 'mobile' ? 'none' : 'block')};
     position: relative;
     padding: ${({ theme }) => `${theme.padding.p8}px 0`};
     background: ${({ theme, background }) => background && theme.colors[background]};
     @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        display: ${({ screen }) => (screen === 'desktop' ? 'none' : 'block')};
         padding: ${({ theme }) => `${theme.padding.p8}px 0 ${theme.padding.p12}px 0`};
         &:after {
             content: '';

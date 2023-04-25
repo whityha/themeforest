@@ -12,6 +12,7 @@ const SectionTitleTeam = () => {
             background={Backgrounds.DarkBlue}
             title="Our team"
             subtext={translation('OurTeam.subtext')}
+            screen="desktop"
         />
     );
 };

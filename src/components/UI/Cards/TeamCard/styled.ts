@@ -44,9 +44,6 @@ export const Wrapper = styled.div`
     flex-basis: 30%;
     flex-grow: 1;
     cursor: pointer;
-    &:nth-child(3n + 2) {
-        transform: translateY(-120px);
-    }
     &:hover ${Image} {
         transform: scale(1.03);
     }
