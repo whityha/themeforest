@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 import { PATHS } from '@/routes';
 import { Title6 } from '@/theme/UI/Titles';
-import { Backgrounds } from '@/types';
+import { Backgrounds, SCREEN } from '@/types';
 
 import { ContactButton, Content, Subtext, Title, Wrapper } from './styled';
 
-const SectionNeedHelp = () => {
+const SectionNeedHelp = ({ screenOnly }: { screenOnly?: SCREEN }) => {
     const { t: translation } = useTranslation();
     return (
-        <Wrapper background={Backgrounds.Grey}>
+        <Wrapper screenOnly={screenOnly} background={Backgrounds.Grey}>
             <Content>
                 <Title>{translation('DoYouNeedHelp.title')}</Title>
                 <Subtext>{translation('DoYouNeedHelp.subtext')}</Subtext>

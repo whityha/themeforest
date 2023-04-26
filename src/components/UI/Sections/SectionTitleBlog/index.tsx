@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import MobilePageTitle from '@/components/MobilePageTitle';
 import SectionTitleBetween from '@/components/UI/Templates/SectionTitleBetween';
-import { Backgrounds } from '@/types';
+import { Backgrounds, SCREEN } from '@/types';
 
 const SectionTitleBlog = () => {
     const { t: translation } = useTranslation();
@@ -13,7 +13,7 @@ const SectionTitleBlog = () => {
                 background={Backgrounds.DarkBlue}
                 title="Blog"
                 subtext={translation('Blog.subtext')}
-                screen="desktop"
+                screenOnly={SCREEN.Mobile}
             />
             <MobilePageTitle pageName="Blog" />
         </>

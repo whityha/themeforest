@@ -4,7 +4,8 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import MobilePageTitle from '@/components/MobilePageTitle';
 import { SectionSubscribe, SectionTeamCards, SectionTitleTeam } from '@/components/UI/Sections';
-import { Backgrounds } from '@/types';
+import MobileContent from '@/components/UI/Sections/SectionTitleTeam/MobileContent';
+import { Backgrounds, SCREEN } from '@/types';
 
 const OurTeam = () => {
     return (
@@ -12,8 +13,9 @@ const OurTeam = () => {
             <Header background={Backgrounds.Grey} />
             <SectionTitleTeam />
             <MobilePageTitle pageName="Our team" />
+            <MobileContent />
             <SectionTeamCards />
-            <SectionSubscribe screen="mobile" background={Backgrounds.Blue} />
+            <SectionSubscribe screenOnly={SCREEN.Mobile} background={Backgrounds.Blue} />
             <Footer />
         </>
     );

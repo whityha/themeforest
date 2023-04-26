@@ -1,16 +1,16 @@
 import React from 'react';
 
 import { STATS_NUMBERS } from '@/constants';
-import { Backgrounds } from '@/types';
+import { Backgrounds, SCREEN } from '@/types';
 
 import FlexBox from '../../FlexBox';
 import NumberBlock from '../Number';
 
 import { Content, Title, Wrapper } from './styled';
 
-const SectionAboutUsNumbers = () => {
+const SectionAboutUsNumbers = ({ screenOnly }: { screenOnly?: SCREEN }) => {
     return (
-        <Wrapper background={Backgrounds.Grey}>
+        <Wrapper screenOnly={screenOnly} background={Backgrounds.Grey}>
             <Content>
                 <FlexBox cg={30} direction="column" alignItems="center">
                     <Title>Ensome in numbers</Title>

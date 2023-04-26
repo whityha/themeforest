@@ -478,5 +478,10 @@
       "title": "Get to know us closer",
       "subtitle": "Our team",
       "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+    },
+    "About Us": {
+      "title": "We work with 15 years of experience",
+      "subtitle": "About Us",
+      "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo."
     }
 }

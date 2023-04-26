@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { Backgrounds } from '@/types';
+import { Backgrounds, SCREEN } from '@/types';
 
 import FlexBox from '../../FlexBox';
 
@@ -11,12 +11,12 @@ interface SectionTitleBetween {
     background: Backgrounds;
     title: string;
     subtext: string;
-    screen?: 'desktop' | 'mobile';
+    screenOnly?: SCREEN;
 }
 
-const SectionTitleBetween = ({ screen, background, title, subtext }: SectionTitleBetween) => {
+const SectionTitleBetween = ({ screenOnly, background, title, subtext }: SectionTitleBetween) => {
     return (
-        <Wrapper screen={screen} background={background}>
+        <Wrapper screenOnly={screenOnly} background={background}>
             <Content>
                 <Breadcrumbs background={background} paths={['Home', title]} />
                 <FlexBox justifyContent="space-between" alignItems="center">

@@ -36,15 +36,15 @@ export const QUICK_LINKS = [
 export const SERVICES_LINKS = [
     {
         name: `footer.services.pages`,
-        path: '',
+        path: '#pages',
     },
     {
         name: `footer.services.elements`,
-        path: '',
+        path: '#elements',
     },
     {
         name: `footer.quick.faq`,
-        path: '',
+        path: '/faq',
     },
     {
         name: `footer.services.pricing`,
@@ -52,7 +52,7 @@ export const SERVICES_LINKS = [
     },
     {
         name: `footer.services.sitemap`,
-        path: '',
+        path: '#sitemap',
     },
 ];
 

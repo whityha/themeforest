@@ -1,24 +1,26 @@
 import React from 'react';
 
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { Backgrounds } from '@/types';
+import { Backgrounds, SCREEN } from '@/types';
 
-import { Title, Wrapper } from './styled';
+import { Content, Title, Wrapper } from './styled';
 
 interface SectionTitleMiddle {
     title: string;
     path?: string[];
-    screen?: 'desktop' | 'mobile';
+    screenOnly?: SCREEN;
 }
-const SectionTitleMiddle = ({ title, path, screen }: SectionTitleMiddle) => {
+const SectionTitleMiddle = ({ title, path, screenOnly }: SectionTitleMiddle) => {
     return (
-        <Wrapper screen={screen} background={Backgrounds.Grey}>
-            <Title>{title}</Title>
-            {path ? (
-                <Breadcrumbs paths={[...path, `${title}`]} />
-            ) : (
-                <Breadcrumbs paths={['Home', `${title}`]} />
-            )}
+        <Wrapper screenOnly={screenOnly} background={Backgrounds.Grey}>
+            <Content>
+                <Title>{title}</Title>
+                {path ? (
+                    <Breadcrumbs paths={[...path, `${title}`]} />
+                ) : (
+                    <Breadcrumbs paths={['Home', `${title}`]} />
+                )}
+            </Content>
         </Wrapper>
     );
 };

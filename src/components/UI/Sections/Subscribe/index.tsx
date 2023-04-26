@@ -2,19 +2,19 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import SubscribeInput from '@/components/SubscribeInput';
-import { Backgrounds } from '@/types';
+import { Backgrounds, SCREEN } from '@/types';
 
 import { Content, DescriptionContainer, InputContainer, Subtext, Title, Wrapper } from './styled';
 
 interface SectionSubscribe {
-    screen?: 'mobile' | 'desktop';
+    screenOnly?: SCREEN;
     background?: Backgrounds;
 }
 
-const SectionSubscribe = ({ background, screen }: SectionSubscribe) => {
+const SectionSubscribe = ({ background, screenOnly }: SectionSubscribe) => {
     const { t: translation } = useTranslation();
     return (
-        <Wrapper screen={screen} background={background}>
+        <Wrapper screenOnly={screenOnly} background={background}>
             <Content>
                 <DescriptionContainer>
                     <Title>{translation('Subscribe.title')}</Title>

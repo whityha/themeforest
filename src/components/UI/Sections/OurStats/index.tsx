@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import FlexBox from '@/components/UI/FlexBox';
 import { STATS_NUMBER_HOME } from '@/constants';
+import { Backgrounds, SCREEN } from '@/types';
 
 import NumberBlock from '../Number';
 
@@ -18,10 +19,15 @@ import {
     Wrapper,
 } from './styled';
 
-const SectionOurStats = () => {
+interface SectionOurStats {
+    screenOnly?: SCREEN;
+    background?: Backgrounds;
+}
+
+const SectionOurStats = ({ screenOnly, background }: SectionOurStats) => {
     const { t: translation } = useTranslation();
     return (
-        <Wrapper>
+        <Wrapper screenOnly={screenOnly} background={background}>
             <Content>
                 <Title>{translation('OurStats.title')}</Title>
                 <Container>

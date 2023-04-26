@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 import useAccordion from '@/hooks/useAccordion';
 
@@ -22,13 +23,13 @@ const AccordionItem = ({ title, links, id, dark }: AccordionItem) => {
         <Wrapper dark={dark}>
             <Main onClick={handleAccordion}>
                 {title}
-                <Arrow isOpen={open} />
+                <Arrow dark={dark} isOpen={open} />
             </Main>
             <Details isOpen={open}>
                 {links.map(({ name, path }) => {
                     return (
                         <LinkItem dark={dark} key={path}>
-                            {translate(name)}
+                            <Link to={path}>{translate(name)}</Link>
                         </LinkItem>
                     );
                 })}

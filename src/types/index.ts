@@ -54,6 +54,9 @@ export enum Backgrounds {
 export interface BackgroundProps {
     background?: Backgrounds;
 }
+export interface SectionProps extends BackgroundProps {
+    screenOnly?: SCREEN;
+}
 
 export enum Cards {
     Customers = 'customers',
@@ -66,3 +69,8 @@ export type AccordionItem = {
     title: string;
     subtext: string;
 };
+
+export enum SCREEN {
+    Desktop = 'desktop',
+    Mobile = 'mobile',
+}

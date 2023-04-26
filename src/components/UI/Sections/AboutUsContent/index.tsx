@@ -1,12 +1,14 @@
 import React from 'react';
 
+import { SCREEN } from '@/types';
+
 import FlexBox from '../../FlexBox';
 
 import { Content, Image, Subtext, Title, Wrapper } from './styled';
 
-const SectionAboutUsContent = () => {
+const SectionAboutUsContent = ({ screenOnly }: { screenOnly?: SCREEN }) => {
     return (
-        <Wrapper>
+        <Wrapper screenOnly={screenOnly}>
             <Content>
                 <FlexBox cg={30}>
                     <FlexBox direction="column" rg={30} alignItems="start">

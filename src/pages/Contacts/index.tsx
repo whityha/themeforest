@@ -11,7 +11,6 @@ const Contacts = () => {
         <>
             <Header background={Backgrounds.Grey} />
             <SectionContactsContent />
-            {/* <SectionMap /> */}
             <Map />
             <Footer />
         </>

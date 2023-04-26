@@ -7,7 +7,6 @@ import { Title2 } from '@/theme/UI/Titles';
 import { SectionTemplate, WrapperTemplate } from '../../Templates';
 
 export const Wrapper = styled(SectionTemplate)`
-    display: flex;
     padding: ${({ theme }) => `${theme.padding.p10}px 0`};
     @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
         padding: ${({

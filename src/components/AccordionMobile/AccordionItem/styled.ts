@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 type Opens = {
     isOpen: boolean;
+    dark?: boolean;
 };
 
 type ColorBackground = {
@@ -25,9 +26,12 @@ export const Arrow = styled.span<Opens>`
     top: 50%;
     height: 12px;
     width: 12px;
-    background: url('/assets/icons/services/quote.svg') no-repeat center right;
+    background: ${({ dark }) =>
+        dark
+            ? `url('/assets/icons/services/quote-white.svg') no-repeat center right`
+            : `url('/assets/icons/services/quote.svg') no-repeat center right`};
     transform: ${({ isOpen }) =>
-        isOpen ? `translateY(-50%) rotate(270deg)` : `translateY(-50%) rotate(90deg)`};
+        isOpen ? `translateY(-50%) rotate(180deg)` : `translateY(-50%) rotate(0deg)`};
 `;
 
 export const Main = styled.div`

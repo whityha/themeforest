@@ -7,6 +7,9 @@ import { SectionTemplate, WrapperTemplate } from '../../Templates';
 
 export const Wrapper = styled(SectionTemplate)`
     padding: ${({ theme }) => `${theme.padding.p12}px 0px`};
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        display: none;
+    }
 `;
 
 export const Content = styled(WrapperTemplate)`
@@ -24,7 +27,7 @@ export const Subtext = styled(Parag1)`
     color: ${({ theme }) => theme.colors.grey};
 `;
 
-export const ContactItem = styled.p`
+export const ContactItem = styled.div`
     color: ${({ theme }) => theme.colors.black};
     font-weight: 800;
 `;

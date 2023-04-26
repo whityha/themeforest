@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { SectionTemplate } from '@/components/UI/Templates';
+import { SectionTemplate, WrapperTemplate } from '@/components/UI/Templates';
 import { getWrapperWidth } from '@/theme/UI/Common';
 import { Parag1 } from '@/theme/UI/Paragraphs';
 import { Title2 } from '@/theme/UI/Titles';
@@ -16,6 +16,9 @@ export const Wrapper = styled(SectionTemplate)`
             padding: { p8, p12 },
         },
     }) => `${p12}px 0 ${p8}px 0`};
+    @media (max-width: ${({ theme: { breakpoints } }) => breakpoints.small}px) {
+        display: none;
+    }
 `;
 
 export const Title = styled(Title2)`
@@ -28,10 +31,12 @@ export const SubTitle = styled(Parag1)`
     line-height: ${({ theme }) => theme.lineHeight.large};
 `;
 
-export const Content = styled.div`
+export const Content = styled(WrapperTemplate)`
     display: flex;
+    flex-direction: column;
+    row-gap: ${({ theme }) => theme.gap.g3}px;
     column-gap: ${({ theme }) => theme.gap.g3}px;
-    align-items: center;
+    align-items: start;
 `;
 
 export const ContentBox = styled.div`
@@ -42,4 +47,9 @@ export const ContentBox = styled.div`
 
 export const ImageBlock = styled.img`
     width: calc(100% / 6);
+`;
+
+export const InnerBox = styled.div`
+    display: flex;
+    overflow-x: auto;
 `;
