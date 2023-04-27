@@ -12,6 +12,13 @@ export const APP_EMAIL_TEMPLATE_ID_PERSON_CONTACT =
 
 export const APP_MAPBOX_TOKEN = process.env.APP_MAPBOX_TOKEN || '';
 
+console.log(
+    CLIENT_ID,
+    APP_EMAIL_SERVICE_ID,
+    APP_EMAIL_TEMPLATE_ID_AUTOSEND,
+    APP_EMAIL_TEMPLATE_ID_PERSON_CONTACT,
+    APP_MAPBOX_TOKEN
+);
 export const STATS_NUMBERS = [
     {
         id: 1,
