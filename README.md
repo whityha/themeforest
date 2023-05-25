@@ -1,4 +1,4 @@
-# Tестовое задание Modsen Themeforest Ensome
+#Modsen Themeforest Ensome
 
 ## Содержание
 
