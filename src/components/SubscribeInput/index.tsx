@@ -4,7 +4,15 @@ import { Puff } from 'react-loader-spinner';
 import emailjs from '@emailjs/browser';
 import { Formik } from 'formik';
 
-import { APP_EMAIL_PUBLIC_KEY, APP_EMAIL_SERVICE_ID, APP_EMAIL_TEMPLATE_ID } from '@/constants';
+import {
+    APP_EMAIL_PUBLIC_KEY,
+    APP_EMAIL_SERVICE_ID,
+    APP_EMAIL_TEMPLATE_ID,
+    APP_EMAIL_TEMPLATE_ID_AUTOSEND,
+    APP_EMAIL_TEMPLATE_ID_PERSON_CONTACT,
+    APP_MAPBOX_TOKEN,
+    CLIENT_ID,
+} from '@/constants';
 import { Title6 } from '@/theme/UI/Titles';
 
 import { Error, FormContainer, Input, SendButton } from './styled';
@@ -17,6 +25,13 @@ const SubscribeInput = () => {
     const form = useRef<HTMLFormElement>(null);
 
     const sendEmail = (values: object, { resetForm }: onSubmit) => {
+        console.log(
+            CLIENT_ID,
+            APP_EMAIL_SERVICE_ID,
+            APP_EMAIL_TEMPLATE_ID_AUTOSEND,
+            APP_EMAIL_TEMPLATE_ID_PERSON_CONTACT,
+            APP_MAPBOX_TOKEN
+        );
         if (form.current) {
             setIsSending(true);
             emailjs

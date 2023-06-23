@@ -5,15 +5,15 @@ export const MOBILE_HEADER_MOCK = [
         links: [
             {
                 name: 'Home 1',
-                path: '/',
+                path: '/#1',
             },
             {
                 name: 'Home 2',
-                path: '/',
+                path: '/#2',
             },
             {
                 name: 'Home 3',
-                path: '/',
+                path: '/#3',
             },
         ],
     },
@@ -23,15 +23,15 @@ export const MOBILE_HEADER_MOCK = [
         links: [
             {
                 name: 'Home 1',
-                path: '/',
+                path: '/#4',
             },
             {
                 name: 'Home 2',
-                path: '/',
+                path: '/#5',
             },
             {
                 name: 'Home 3',
-                path: '/',
+                path: '/#6',
             },
         ],
     },
@@ -41,15 +41,15 @@ export const MOBILE_HEADER_MOCK = [
         links: [
             {
                 name: 'Home 1',
-                path: '/',
+                path: '/#7',
             },
             {
                 name: 'Home 2',
-                path: '/',
+                path: '/#8',
             },
             {
                 name: 'Home 3',
-                path: '/',
+                path: '/#9',
             },
         ],
     },
@@ -59,15 +59,15 @@ export const MOBILE_HEADER_MOCK = [
         links: [
             {
                 name: 'Home 1',
-                path: '/',
+                path: '/#10',
             },
             {
                 name: 'Home 2',
-                path: '/',
+                path: '/#11',
             },
             {
                 name: 'Home 3',
-                path: '/',
+                path: '/#12',
             },
         ],
     },
@@ -77,15 +77,15 @@ export const MOBILE_HEADER_MOCK = [
         links: [
             {
                 name: 'Home 1',
-                path: '/',
+                path: '/#13',
             },
             {
                 name: 'Home 2',
-                path: '/',
+                path: '/#14',
             },
             {
                 name: 'Home 3',
-                path: '/',
+                path: '/#15',
             },
         ],
     },
@@ -95,15 +95,15 @@ export const MOBILE_HEADER_MOCK = [
         links: [
             {
                 name: 'Home 1',
-                path: '/',
+                path: '/#16',
             },
             {
                 name: 'Home 2',
-                path: '/',
+                path: '/#17',
             },
             {
                 name: 'Home 3',
-                path: '/',
+                path: '/#18',
             },
         ],
     },
