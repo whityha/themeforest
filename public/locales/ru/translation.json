@@ -1,0 +1,478 @@
+{
+  "routes": {
+  },
+  "header": {
+    "videoButton": "Смотреть видео",
+    "navbar": {
+      "home": "Главная",
+      "solutions": "Решения",
+      "pages": "Страницы",
+      "elements": "Элементы",
+      "blog": "Блог",
+      "contacts": "Контакты"
+    }
+  },
+  "footer": {
+    "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне",
+    "quick": {
+      "title":"Ссылки",
+      "home": "Главная",
+      "solutions": "Решения",
+      "blog": "Блог",
+      "contacts": "Контакты",
+      "ourTeam": "Команда",
+      "aboutUs": "О нас",
+      "services": "Сервисы",
+      "faq": "FAQ"
+    },
+    "services": {
+      "title":"Сервис",
+      "pages":"Страницы",
+      "elements":"Элементы",
+      "pricing": "Цены",
+      "sitemap": "Карта сайта"
+    },
+    "contact": "Контактная информация",
+    "policy": {
+      "rights": "Ensome© 2022 All Rights Reserved",
+      "privacy": "Политика конфиденциальности",
+      "terms": "Условия"
+    }
+  },
+  "Ensome": {
+    "title": "Откройте истинную силу ваших данных с помощью",
+    "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне сбалансированных нововведений. Повседневная практика показывает",
+    "button": "Подробнее"
+  },
+  "NewestPlatform": {
+    "title": "Новейшая платформа для бизнес аналитики",
+    "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне сбалансированных нововведений. Повседневная практика показывает, что реализация намеченного плана развития играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач! ",
+    "button": "Подробнее"
+  },
+  "Radically": {
+    "title": "Принципиально новые решения",
+    "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне сбалансированных нововведений. Повседневная практика показывает, что",
+    "button": "Изучить"
+  },
+  "OurStats": {
+    "title": "Мы гарантируем ваш успех",
+    "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне сбалансированных нововведений. Повседневная практика показывает, что",
+    "subtitle1": "Проектов выполнено",
+    "subtitle2": "Довольные клиенты",
+    "subtitle3": "Управление данными",
+    "subtitle4": "Анализ данных"
+  },
+  "Benefits": {
+    "title": "Преимущества Ensome",
+    "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне сбалансированных нововведений. Повседневная практика показывает, что",
+    "card1": {
+      "title": "Машинное обучение",
+      "subtext": "Повседневная практика показывает, что консультация с профессионалами из IT играет важную роль"
+    },
+    "card2": {
+      "title": "Встроенная аналитика",
+      "subtext": "Повседневная практика показывает, что консультация с профессионалами из IT играет важную роль"
+    },
+    "card3": {
+      "title": "Контроль доступа",
+      "subtext": "Повседневная практика показывает, что консультация с профессионалами из IT играет важную роль"
+    },
+    "card4": {
+      "title": "Анализ данных",
+      "subtext": "Повседневная практика показывает, что консультация с профессионалами из IT играет важную роль"
+    }
+  },
+  "Testimonials": {
+    "title": "Отзывы"
+  },
+  "OurBlog": {
+    "title": "Наш блог"
+  },
+  "OurPricing": {
+    "title": "Наши цены",
+    "button": "Выбрать",
+    "rate_1": {
+      "title": "Пробный период",
+      "possibilities": ["Для маленьких команд – 5 человек", "Поддержка комьюнити"]
+    },
+    "rate_2": {
+      "title": "Лайт",
+      "possibilities": ["Для маленьких команд – 15 человек", "Индивидуальная поддержка", "Личные данные - 60 Гб"]
+    },
+    "rate_3": {
+      "title": "Базовый",
+      "possibilities": ["Для больших команд – 30 человек", "Индивидуальная поддержка", "Личные данные - 120 Гб", "Расширенные разрешения"]
+    },
+    "rate_4": {
+      "title": "Настраиваемый",
+      "possibilities": ["Для любых команд", "Индивидуальная поддержка", "Безлимитный объем данных", "Расширенные разрешения", "История данных", "Логирование", "Все функции включены"]
+    }
+  },
+  "DoYouNeedHelp": {
+    "title": "Вам нужна помощь?",
+    "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне ",
+    "button": "Свяжитесь с нами"
+  },
+  "Subscribe": {
+    "title": "Подпишитесь на обновления",
+    "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне "
+  },
+  "Solutions": {
+    "subtitle": "Решения",
+    "title": "Решения для анализа данных",
+    "subtext": "Готовясь к вашему успеху, мы предоставляем действительно выдающиеся ИТ-решения.",
+    "integration": {
+      "title": "Интеграция данных",
+      "subtext": "Извлечение, преобразование, загрузка (ETL) или извлечение, загрузка, преобразование (ELT); реализация управления данными (безопасность, доступность, качество).",
+      "page": {
+        "thesis": {
+          "what": {
+            "title": "Что такое интеграция данных?",
+            "subtext": "Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность дальнейших направлений развитая системы массового участия. Практический опыт показывает, что рамки и место обучения кадров обеспечивает широкому кругу специалистов участие в формировании соответствующих условий активизации. Дорогие друзья, постоянный количественный рост и сфера нашей активности позволяет оценить значение направлений прогрессивного развития! Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность новых предложений! Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность дальнейших направлений развитая системы массового участия. Практический опыт показывает, что рамки и место обучения кадров обеспечивает широкому кругу специалистов участие в формировании соответствующих условий активизации. Дорогие друзья, постоянный количественный рост и сфера нашей активности позволяет оценить значение направлений прогрессивного развития! Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность новых предложений!"
+          },
+          "types": {
+            "title": "Типы интеграции данных",
+            "subtext": "Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность дальнейших направлений развитая системы массового участия. Практический опыт показывает, что рамки и место обучения кадров обеспечивает широкому кругу специалистов участие в формировании соответствующих условий активизации. Дорогие друзья, постоянный количественный рост и сфера нашей активности позволяет оценить значение направлений прогрессивного развития! Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность новых предложений!"
+          },
+          "practice": {
+            "title": "Практика интеграции данных",
+            "subtext": "Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность дальнейших направлений развитая системы массового участия. Практический опыт показывает, что рамки и место обучения кадров обеспечивает широкому кругу специалистов участие в формировании соответствующих условий активизации. Дорогие друзья, постоянный количественный рост и сфера нашей активности позволяет оценить значение направлений прогрессивного развития! Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность новых предложений!Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность дальнейших направлений развитая системы массового участия. Практический опыт показывает, что рамки и место обучения кадров обеспечивает широкому кругу специалистов участие в формировании соответствующих условий активизации. Дорогие друзья, постоянный количественный рост и сфера нашей активности позволяет оценить значение направлений прогрессивного развития! Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность новых предложений!"
+          },
+          "ensome": {
+            "title": "Интеграция данных в Ensome",
+            "subtext": "Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность дальнейших направлений развитая системы массового участия. Практический опыт показывает, что рамки и место обучения кадров обеспечивает широкому кругу специалистов участие в формировании соответствующих условий активизации. Дорогие друзья, постоянный количественный рост и сфера нашей активности позволяет оценить значение направлений прогрессивного развития! Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность новых предложений!Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность дальнейших направлений развитая системы массового участия. Практический опыт показывает, что рамки и место обучения кадров обеспечивает широкому кругу специалистов участие в формировании соответствующих условий активизации. Дорогие друзья, постоянный количественный рост и сфера нашей активности позволяет оценить значение направлений прогрессивного развития! Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции обеспечивает актуальность новых предложений!"
+          }
+        }
+      }
+    },
+    "integrationAi": {
+      "title": "Интеграция данных",
+      "subtext": "Подготовка и управление данными; машинное обучение (МО); разработка и внедрение решений искусственного интеллекта (ИИ).",
+      "page": {
+        "thesis": {
+          "what": {
+            "title": "What is data integrationAI?",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "types": {
+            "title": "Types of data integrationAI",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "practice": {
+            "title": "Data integrationAI practice",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "ensome": {
+            "title": "Data integrationAI in Ensome",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    },
+    "bigdata": {
+      "title": "Данные BigData",
+      "subtext": "Настройка и поддержка инфраструктуры больших данных; управление качеством и безопасностью больших данных; сбор больших данных, анализ и отчетность.",
+      "page": {
+        "thesis": {
+          "what": {
+            "title": "What is Bid Data?",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "types": {
+            "title": "Types of Big Data",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "practice": {
+            "title": "Big data practice",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "ensome": {
+            "title": "Big data in Ensome",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    },
+    "warehousing": {
+      "title": "Хранилище данных",
+      "subtext": "Процесс построения и использования хранилища данных. Проектирование и внедрение хранилища данных и киосков данных.",
+      "page": {
+        "thesis": {
+          "what": {
+            "title": "What is data warehousing?",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "types": {
+            "title": "Types of data warehousing",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "practice": {
+            "title": "Data warehousing practice",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "ensome": {
+            "title": "Data warehousing in Ensome",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    },
+    "self": {
+      "title": "BI самообслуживание",
+      "subtext": "Бизнес-аналитика; проектирование и внедрение инфраструктуры аналитики данных; запланированные аналитические запросы и отчеты.",
+      "page": {
+        "thesis": {
+          "what": {
+            "title": "What is Self-service BI?",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "types": {
+            "title": "Types of Self-service BI",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "practice": {
+            "title": "Self-service BI practice",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "ensome": {
+            "title": "Self-service BI in Ensome",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    },
+    "visualization": {
+      "title": "Визуализация данных",
+      "subtext": "интерактивная информационная панель; настраиваемые и готовые визуальные эффекты; несколько методов визуализации (карты символов, линейные диаграммы, круговые диаграммы...)",
+      "page": {
+        "thesis": {
+          "what": {
+            "title": "What is data visualization?",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "types": {
+            "title": "Types of data visualization",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "practice": {
+            "title": "Data visualization practice",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "ensome": {
+            "title": "Data visualization in Ensome",
+            "subtext": "Cras aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    }
+  },
+  "ChooseUs": {
+    "title": "Почему выбирают нас?",
+    "machine": {
+      "title": "Машинное обучение",
+      "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне "
+    },
+    "analytics": {
+      "title": "Встроенная аналитика",
+      "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне "
+    },
+    "control": {
+      "title": "Контроль доступа",
+      "subtext": "Равным образом курс на социально-ориентированный национальный проект требует от нас анализа всесторонне "
+    }
+  },
+  "SubscribeInput": {
+    "button": "Send",
+    "placeholder": "Your email",
+    "error": "Please, choose a valid email"
+  },
+  "Services": {
+    "subtitle": "Services",
+    "title": "Data Analytics Services",
+    "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore.",
+    "machine": {
+      "title": "Machine learning",
+      "subtext": "At Machine learning vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.",
+      "page": {
+        "thesis": {
+          "customer": {
+            "title": "What is data integration?",
+            "subtext": "At Machine learning vero eos et accusamus et iusto odam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "challenge": {
+            "title": "Types of data integration",
+            "subtext": "At Machine learning vero eos et accusamus et iusto od Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "solution": {
+            "title": "Data integration practice",
+            "subtext": "At Machine learning vero eos et accusamus et iusto od Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "result": {
+            "title": "Data integration in Ensome",
+            "subtext": "At Machine learning vero eos et accusamus et iusto od Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "technologies": {
+            "title": "Data integration in Ensome",
+            "subtext": "At Machine learning vero eos et accusamus et iusto odmsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    },
+    "embed": {
+      "title": "Embed analytics",
+      "subtext": "Embed analytics alytics eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.",
+      "page": {
+        "thesis": {
+          "customer": {
+            "title": "What is data integration?",
+            "subtext": "Embed analytics alytics eos et accusamus et iustoobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "challenge": {
+            "title": "Types of data integration",
+            "subtext": "Embed analytics alytics eos et accusamus et iustortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "solution": {
+            "title": "Data integration practice",
+            "subtext": "Embed analytics alytics eos et accusamus et iustollentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "result": {
+            "title": "Data integration in Ensome",
+            "subtext": "Embed analytics alytics eos et accusamus et iustos pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "technologies": {
+            "title": "Data integration in Ensome",
+            "subtext": "Embed analytics alytics eos et accusamus et iustontesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    },
+    "control": {
+      "title": "Access control",
+      "subtext": "Access control Access control usto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.",
+      "page": {
+        "thesis": {
+          "customer": {
+            "title": "What is data integration?",
+            "subtext": "Access control Access control u aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "challenge": {
+            "title": "Types of data integration",
+            "subtext": "Access control Access control u aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "solution": {
+            "title": "Data integration practice",
+            "subtext": "Access control Access control u aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "result": {
+            "title": "Data integration in Ensome",
+            "subtext": "Access control Access control u aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "technologies": {
+            "title": "Data integration in Ensome",
+            "subtext": "Access control Access control u aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    },
+    "analytics": {
+      "title": "Data analytics",
+      "subtext": "Data analytics Data analytics s et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.",
+      "page": {
+        "thesis": {
+          "customer": {
+            "title": "What is data integration?",
+            "subtext": "Data analytics Data analytics aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "challenge": {
+            "title": "Types of data integration",
+            "subtext": "Data analytics Data analytics aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "solution": {
+            "title": "Data integration practice",
+            "subtext": "Data analytics Data analytics aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "result": {
+            "title": "Data integration in Ensome",
+            "subtext": "Data analytics Data analytics aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "technologies": {
+            "title": "Data integration in Ensome",
+            "subtext": "Data analytics Data analytics aliquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    },
+    "consulting": {
+      "title": "Big data consulting",
+      "subtext": "Big data consulting Big data consulting amus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.",
+      "page": {
+        "thesis": {
+          "customer": {
+            "title": "What is data integration?",
+            "subtext": "Big data consulting Big dobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "challenge": {
+            "title": "Types of data integration",
+            "subtext": "Big data consulting Big dobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "solution": {
+            "title": "Data integration practice",
+            "subtext": "Big data consulting Big dobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "result": {
+            "title": "Data integration in Ensome",
+            "subtext": "Big data consulting Big dobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "technologies": {
+            "title": "Data integration in Ensome",
+            "subtext": "Big data consulting Big dobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    },
+    "intelligence": {
+      "title": "Artificial intelligence",
+      "subtext": "Artificial intelligence Artificial intelligence mus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.",
+      "page": {
+        "thesis": {
+          "customer": {
+            "title": "What is data integration?",
+            "subtext": "Artificial intelligence iquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "challenge": {
+            "title": "Types of data integration",
+            "subtext": "Artificial intelligence iquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "solution": {
+            "title": "Data integration practice",
+            "subtext": "Artificial intelligence iquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "result": {
+            "title": "Data integration in Ensome",
+            "subtext": "Artificial intelligence iquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          },
+          "technologies": {
+            "title": "Data integration in Ensome",
+            "subtext": "Artificial intelligence iquet felis nec lobortis pellentesque. Nam accumsan felis feugiat lorem volutpat, at mollis ipsum congue. Morbi non feugiat odio, ut facilisis eros. Duis in consequat mauris, vel interdum odio. Vestibulum et ex in neque bibendum vestibulum. Sed eget pharetra nunc. Duis mollis ante mauris, vitae volutpat libero rhoncus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean luctus ultrices eros, vel sollicitudin arcu fringilla quis. Vestibulum porttitor euismod sagittis. Pellentesque scelerisque purus nisi, ac convallis neque bibendum eget. Pellentesque augue nunc, ullamcorper vel sollicitudin sed, auctor nec libero."
+          }
+        }
+      }
+    }
+  },
+  "FAQ": {
+    "subtitle": "FAQs",
+    "title": "Frequently asked questions",
+    "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam."
+  },
+  "OurCustomers": {
+    "title": "Our customers",
+    "subtext": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam.",
+    "whatSay": "What our customers say"
+  },
+  "Blog": {
+    "subtext": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa."
+  },
+  "OurTeam": {
+    "subtext": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa. Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. Fusce id commodo libero."
+  }
+}

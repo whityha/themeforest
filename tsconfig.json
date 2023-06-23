@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+      "target": "es6",
+      "lib": ["es2016", "dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "outDir": "./dist/",
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "sourceMap": true,
+      "isolatedModules": true,
+      "noImplicitAny": true,
+      "jsx": "react",
+      "checkJs": true,
+      "types": ["jest", "node"]
+  },
+  "include": ["src", "../../node_modules/@types/jest", "src/react-app-env.d.ts"],
+  "extends": "./tsconfig.paths.json"
+}
